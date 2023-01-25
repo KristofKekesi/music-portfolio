@@ -498,5 +498,19 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=8cIXKJGT8I0"
         }
+    },
+    {
+        "name": "out of time",
+        "release": "2022/08/12",
+        "length": 114,
+        "key": "d minor",
+        "bpm": 134,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x septembersrich x sgpwes type beat",
+        "cover": "out-of-time.jpg",
+        "tags": ["kankan", "b4w2g"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=oEYTW8ISsV0"
+        }
     }
   ]
