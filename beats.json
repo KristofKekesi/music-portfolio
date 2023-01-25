@@ -1,0 +1,502 @@
+[
+    {
+        "name": "remember",
+        "release": "2023/01/24",
+        "length": 115,
+        "key": "f minor",
+        "bpm": 139,
+        "license": "free for non profit",
+        "description": "hardrock x lunchbox x cheromani type beat",
+        "cover": "remember.jpg",
+        "tags": ["cheromani", "lunchbox", "hardrock"]
+    },
+    {
+        "name": "hearthless",
+        "release": "2023/01/14",
+        "length": 125,
+        "key": "c sharp minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "lunchbox x cheromani x new jazz ype beat",
+        "cover": "hearthless.jpg",
+        "tags": ["cheromani", "newjazz", "hardrock"]
+    },
+    {
+        "name": "lost",
+        "release": "2023/01/11",
+        "length": 123,
+        "key": "f minor",
+        "bpm": 142,
+        "license": "free for non profit",
+        "description": "iayze x dom corleo x goonie type beat",
+        "cover": "lost.jpg",
+        "tags": ["iayze", "domcorleo", "hardrock"]
+    },
+    {
+        "name": "darkness",
+        "release": "2023/01/06",
+        "length": 123,
+        "key": "c sharp minor",
+        "bpm": 120,
+        "license": "free for non profit",
+        "description": "iayze x dom corleo x destroy lonely type beat",
+        "cover": "darkness.jpg",
+        "tags": ["iayze", "domcorleo", "hardrock"]
+    },
+    {
+        "name": "alive",
+        "release": "2022/12/15",
+        "length": 123,
+        "key": "g minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "iayze x dom corleo x destroy lonely type beat",
+        "cover": "alive-2.jpg",
+        "tags": ["iayze", "domcorleo", "hardrock"]
+    },
+    {
+        "name": "plot!",
+        "release": "2022/12/14",
+        "length": 154,
+        "key": "d major",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "iayze x dom corleo x goonie type beat",
+        "cover": "plot.jpg",
+        "tags": ["iayze", "domcorleo", "hardrock"]
+    },
+    {
+        "name": "miss you",
+        "release": "2022/12/14",
+        "length": 104,
+        "key": "f minor",
+        "bpm": 144,
+        "license": "free for non profit",
+        "description": "iayze x dom corleo x destroy lonely type beat",
+        "cover": "miss-you.jpg",
+        "tags": ["iayze", "domcorleo", "hardrock"]
+    },
+    {
+        "name": "silver",
+        "release": "2022/12/11",
+        "length": 137,
+        "key": "c sharp minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "yeat x dom corleo x goonie type beat",
+        "cover": "silver.jpg",
+        "tags": ["iayze", "domcorleo", "hardrock"]
+    },
+    {
+        "name": "lotus",
+        "release": "2022/12/07",
+        "length": 145,
+        "key": "a minor",
+        "bpm": 120,
+        "license": "free for non profit",
+        "description": "iayze x dom corleo x goonie type beat",
+        "cover": "lotus.jpg",
+        "tags": ["iayze", "domcorleo", "hardrock"]
+    },
+    {
+        "name": "flawless",
+        "release": "2022/12/04",
+        "length": 142,
+        "key": "d minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "iayze x dom corleo x destroy lonely type beat",
+        "cover": "flawless.jpg",
+        "tags": ["iayze", "domcorleo", "hardrock"]
+    },
+    {
+        "name": "alive",
+        "release": "2022/12/01",
+        "length": 129,
+        "key": "a sharp minor",
+        "bpm": 134,
+        "license": "free for non profit",
+        "description": "iayze x dom corleo x destroy lonely type beat",
+        "cover": "alive-1.jpg",
+        "tags": ["iayze", "domcorleo", "hardrock"]
+    },
+    {
+        "name": "airborne",
+        "release": "2022/11/21",
+        "length": 160,
+        "key": "g major",
+        "bpm": 147,
+        "license": "free for non profit",
+        "description": "dom corleo x destroy lonely x bktherula type beat",
+        "cover": "airborne.jpg",
+        "tags": ["bktherula", "domcorleo", "destroylonely"]
+    },
+    {
+        "name": "redlight",
+        "release": "2022/11/20",
+        "length": 141,
+        "key": "d sharp minor",
+        "bpm": 136,
+        "license": "free for non profit",
+        "description": "dom corleo x destroy lonely x sofaygo type beat",
+        "cover": "redlight.jpg",
+        "tags": ["domcorleo", "destroylonely", "rage"]
+    },
+    {
+        "name": "winter",
+        "release": "2022/11/19",
+        "length": 137,
+        "key": "e minor",
+        "bpm": 125,
+        "license": "free for non profit",
+        "description": "kashdami x kankan x tana x autumn! plunggnb type beat",
+        "cover": "winter.jpg",
+        "tags": ["pluggnb", "kashdami"]
+    },
+    {
+        "name": "slayy+!",
+        "release": "2022/11/19",
+        "length": 178,
+        "key": "a minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "kankan x bktherula x slmp6s x septembersrich type beat",
+        "cover": "slayy.jpg",
+        "tags": ["kankan", "bktherula"]
+    },
+    {
+        "name": "321",
+        "release": "2022/11/18",
+        "length": 123,
+        "key": "a sharp minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "yeat x lyfë x bynx  hyperrage type beat",
+        "cover": "321.jpg",
+        "tags": ["yeat", "lyfë"]
+    },
+    {
+        "name": "extra°5%",
+        "release": "2022/11/17",
+        "length": 154,
+        "key": "f sharp minor",
+        "bpm": 134,
+        "license": "free for non profit",
+        "description": "kashdami x kankan x tana x autumn! plunggnb type beat",
+        "cover": "extra.jpg",
+        "tags": ["pluggnb", "kashdami"]
+    },
+    {
+        "name": "divine",
+        "release": "2022/11/16",
+        "length": 141,
+        "key": "a minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "yeat x lyfë x bynx  hyperrage type beat",
+        "cover": "divine.jpg",
+        "tags": ["yeat", "lyfë"]
+    },
+    {
+        "name": "1772",
+        "release": "2022/11/09",
+        "length": 145,
+        "key": "c minor",
+        "bpm": 137,
+        "license": "free for non profit",
+        "description": "bktherula x destroy lonely x sofaygo type beat",
+        "cover": "1772.jpg",
+        "tags": ["bktherula", "sofaygo", "destroylonely"]
+    },
+    {
+        "name": "patterns",
+        "release": "2022/11/09",
+        "length": 147,
+        "key": "d sharp minor",
+        "bpm": 117,
+        "license": "free for non profit",
+        "description": "kankan x synthetic x yeat type beat",
+        "cover": "patterns.jpg",
+        "tags": ["yeat", "kankan"]
+    },
+    {
+        "name": "&^#@",
+        "release": "2022/10/10",
+        "length": 132,
+        "key": "d sharp minor",
+        "bpm": 132,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x septembersrich x w2g underground type beat",
+        "cover": "&^#@.jpg",
+        "tags": ["kankan", "w2g"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=CmEpErKDfFM"
+        }
+    },
+    {
+        "name": "pinkcup",
+        "release": "2022/10/01",
+        "length": 116,
+        "key": "f sharp minor",
+        "bpm": 134,
+        "license": "free for non profit",
+        "description": "kankan x kashdami x autumn! pluggnb type beat",
+        "cover": "pinkcup.jpg",
+        "tags": ["pluggnb", "kankan", "w2g"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=tSSd2E4pIWs"
+        }
+    },
+    {
+        "name": "orbital",
+        "release": "2022/09/30",
+        "length": 128,
+        "key": "d minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x septembersrich x w2g underground type beat",
+        "cover": "orbital.jpg",
+        "tags": ["kankan", "w2g"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=B_GoKT3rvyc"
+        }
+    },
+    {
+        "name": "whitearmor",
+        "release": "2022/09/29",
+        "length": 131,
+        "key": "g flat minor",
+        "bpm": 150,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x septembersrich x sgpwes type beat",
+        "cover": "whitearmor.jpg",
+        "tags": ["kankan", "w2g"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=6vMJFKPX17M"
+        }
+    },
+    {
+        "name": "deception",
+        "release": "2022/09/28",
+        "length": 101,
+        "key": "f sharp minor",
+        "bpm": 133,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x septembersrich x sgpwes type beat",
+        "cover": "deception.jpg",
+        "tags": ["autumn", "kankan", "rr"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=L19e48BYKsw"
+        }
+    },
+    {
+        "name": "luh tank",
+        "release": "2022/09/21",
+        "length": 141,
+        "key": "c sharp minor",
+        "bpm": 137,
+        "license": "free for non profit",
+        "description": "kankan x autumn! x septembersrich x sgpwes type beat",
+        "cover": "luh-tank.jpg",
+        "tags": ["autumn", "kankan", "rr"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=6Q9ClJU0sDQ"
+        }
+    },
+    {
+        "name": "afterworld",
+        "release": "2022/09/19",
+        "length": 160,
+        "key": "c minor",
+        "bpm": 147,
+        "license": "free for non profit",
+        "description": "destroy lonely x sofaygo x midwxst x trippie redd type beat",
+        "cover": "afterworld.jpg",
+        "tags": ["destroylonely", "sofaygo"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=zeF0Hn4xa5g"
+        }
+    },
+    {
+        "name": "wokeup",
+        "release": "2022/09/13",
+        "length": 128,
+        "key": "g sharp minor",
+        "bpm": 142,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x septembersrich x sgpwes type beat",
+        "cover": "wokeup.jpg",
+        "tags": ["kankan", "b4w2g"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=tGoi353zxME"
+        }
+    },
+    {
+        "name": "fax machine",
+        "release": "2022/09/12",
+        "length": 131,
+        "key": "e minor",
+        "bpm": 133,
+        "license": "free for non profit",
+        "description": "kashdami x summrs x tana x autumn! pluggnb type beat",
+        "cover": "fax-machine.jpg",
+        "tags": ["pluggnb", "kashdami"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=B0Lzy1uRmhc"
+        }
+    },
+    {
+        "name": "lmk",
+        "release": "2022/09/09",
+        "length": 99,
+        "key": "e minor",
+        "bpm": 120,
+        "license": "free for non profit",
+        "description": "kashdami x summrs x tana x autumn! pluggnb type beat",
+        "cover": "lmk.jpg",
+        "tags": ["pluggnb", "kashdami"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=eSoDUyX-Y-o"
+        }
+    },
+    {
+        "name": "no lie",
+        "release": "2022/09/08",
+        "length": 125,
+        "key": "c minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "kashdami x summrs x tana x autumn! pluggnb type beat",
+        "cover": "no-lie.jpg",
+        "tags": ["pluggnb", "kashdami"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=rajqRlf57xY"
+        }
+    },
+    {
+        "name": "insomnia",
+        "release": "2022/09/07",
+        "length": 151,
+        "key": "f minor",
+        "bpm": 128,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x septembersrich x sgpwes type beat",
+        "cover": "insomnia.jpg",
+        "tags": ["kankan", "b4w2g"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=0nihiWCLhag"
+        }
+    },
+    {
+        "name": "sonar",
+        "release": "2022/09/06",
+        "length": 138,
+        "key": "c sharp minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x septembersrich x sgpwes type beat",
+        "cover": "sonar.jpg",
+        "tags": ["kankan", "b4w2g"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=DiqjS-ILvgo"
+        }
+    },
+    {
+        "name": "grief",
+        "release": "2022/09/05",
+        "length": 114,
+        "key": "d minor",
+        "bpm": 132,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x septembersrich x sgpwes type beat",
+        "cover": "grief.jpg",
+        "tags": ["kankan", "b4w2g"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=HBRuJwd0__I"
+        }
+    },
+    {
+        "name": "wizzard",
+        "release": "2022/08/23",
+        "length": 119,
+        "key": "e minor",
+        "bpm": 145,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x septembersrich x sgpwes type beat",
+        "cover": "wizzard.jpg",
+        "tags": ["kankan", "b4w2g"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=u3801pb7vj4"
+        }
+    },
+    {
+        "name": "taxbracket",
+        "release": "2022/08/22",
+        "length": 102,
+        "key": "e minor",
+        "bpm": 150,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x septembersrich x sgpwes type beat",
+        "cover": "taxbracket.jpg",
+        "tags": ["kankan", "b4w2g"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=-oNXKj47Yjg"
+        }
+    },
+    {
+        "name": "6 figures",
+        "release": "2022/08/18",
+        "length": 147,
+        "key": "c sharp minor",
+        "bpm": 130,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x septembersrich x sgpwes type beat",
+        "cover": "6-figures.jpg",
+        "tags": ["kankan", "b4w2g"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=-zzhoKfV30Y"
+        }
+    },
+    {
+        "name": "crashdummy",
+        "release": "2022/08/17",
+        "length": 132,
+        "key": "a minor",
+        "bpm": 159,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x septembersrich x sgpwes type beat",
+        "cover": "crashdummy.jpg",
+        "tags": ["kankan", "b4w2g"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=uSKog4QQbMU"
+        }
+    },
+    {
+        "name": "last chance",
+        "release": "2022/08/16",
+        "length": 132,
+        "key": "f major",
+        "bpm": 120,
+        "license": "free for non profit",
+        "description": "kashdami x summrs x tana x autumn! pluggnb type beat",
+        "cover": "last-chance.jpg",
+        "tags": ["kashdami", "pluggnb"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=zC7TxVHlnJ8"
+        }
+    },
+    {
+        "name": "no stylist",
+        "release": "2022/08/15",
+        "length": 134,
+        "key": "d sharp major",
+        "bpm": 145,
+        "license": "free for non profit",
+        "description": "destroy lonely x ken carson x midwxst x trippie redd type beat",
+        "cover": "no-stylist.jpg",
+        "tags": ["destroylonely"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=8cIXKJGT8I0"
+        }
+    }
+  ]
