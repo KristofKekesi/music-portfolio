@@ -114,9 +114,9 @@ export default function Home() {
 												</div>
 												<p className={space_grotesk.className + " opacity-60 text-justify"}>lunchbox x cheromani x new jazz ype beat</p>
 												<div className="flex gap-4">
-													<p className={space_grotesk.className + " pt-4 text-violet-600"}>#iayze</p>
-													<p className={space_grotesk.className + " pt-4 text-fuchsia-600"}>#domcorleo</p>
-													<p className={space_grotesk.className + " pt-4 text-amber-600"}>#hardrock</p>
+													<p className={space_grotesk.className + " pt-4 text-violet-600 hover:text-violet-400 transition-colors"}>#iayze</p>
+													<p className={space_grotesk.className + " pt-4 text-fuchsia-600 hover:text-fuchsia-400 transition-colors"}>#domcorleo</p>
+													<p className={space_grotesk.className + " pt-4 text-amber-600 hover:text-amber-400 transition-colors"}>#hardrock</p>
 												</div>
 											</div>
 											<Link href={ server + "/beats/plot" } className={space_grotesk.className + " text-right pt-12 text-2xl flex justify-end items-center"}>More<Image alt="More" className="p-1 w-12 h-12" src={right}></Image></Link>
@@ -124,18 +124,18 @@ export default function Home() {
 									</div>
 							</div>
 						<div>
-						<h2 className={space_grotesk.className + " text-2xl px-4"}>All Beats</h2>
+						<h2 className={space_grotesk.className + " text-2xl px-4"}>All Beats <span className="text-sm opacity-60">({beats.length})</span></h2>
 							<div className="flex flex-wrap gap-2">
 								{ beats.map((beat) => {
-									let name = (beat.name.substring(0, 12));
+									let name = (beat.name.substring(0, 16));
 									if (beat.name !== name) {
 										name += "...";
 									}
 
 									return (
-										<Link key={beat.cover} href={ encodeURI(server + "/beats/" + beat.name) } className="flex flex-col justify-center items-center content-center">
+										<Link key={beat.cover} href={ encodeURI(server + "/beats/" + beat.name) } className="flex flex-col justify-center items-center content-center group">
 											<div className="a h-32 w-32 bg-white/20 rounded-2xl"></div>
-											<span className={space_grotesk.className + " text-base text-white/60"}>{ name }</span>
+											<span className={space_grotesk.className + " text-base transition-colors text-white/60 group-hover:text-white"}>{ name }</span>
 										</Link>
 									)
 								}) }
@@ -143,6 +143,15 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
+				<footer className="flex flex-row items-top justify-between items-center w-full p-8 pt-4 pb-4 gap-8 z-50 border-t border-black bg-black/25 backdrop-blur-xl">
+					<div className="flex flex-row items-top justify-start items-center gap-2">
+						<div className={ space_grotesk.className + " text-base text-white/60"}>Made by <Link href="https://www.kekesi.dev" className="text-white">Kristof Kekesi</Link> for</div>
+						<h1 className={space_grotesk.className + " text-2xl"}>
+							Jaki<span className={"a -ml-1 italic tracking-tighter text-white/50 inline-block"}>mixed</span>it
+						</h1>
+					</div>
+					<div className={ space_grotesk.className + " text-base text-white/60"}>Copyright © 2023 Jakimixedit. All Rights Reserved.</div>
+				</footer>
 			</main>
 		</>
 	)

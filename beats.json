@@ -512,5 +512,635 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=oEYTW8ISsV0"
         }
+    },
+    {
+        "name": "estovers",
+        "release": "2022/08/11",
+        "length": 120,
+        "key": "d sharp minor",
+        "bpm": 144,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x septembersrich x sgpwes type beat",
+        "cover": "estovers.jpg",
+        "tags": ["kankan", "b4w2g"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=ZjqQ0dDzoBc"
+        }
+    },
+    {
+        "name": "dont @ me",
+        "release": "2022/08/10",
+        "length": 138,
+        "key": "f sharp minor",
+        "bpm": 125,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x sgpwes x autumn! type beat",
+        "cover": "dont-at-me.jpg",
+        "tags": ["kankan", "rr"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=DVDMsAJry7A"
+        }
+    },
+    {
+        "name": "wow",
+        "release": "2022/08/09",
+        "length": 103,
+        "key": "c sharp minor",
+        "bpm": 155,
+        "license": "free for non profit",
+        "description": "kashdami x summrs x autumn! pluggnb type beat",
+        "cover": "wow.jpg",
+        "tags": ["pluggnb", "kashdami", "autumn"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=RUWmZGAG94E"
+        }
+    },
+    {
+        "name": "dissin",
+        "release": "2022/08/09",
+        "length": 159,
+        "key": "g sharp minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x sgpwes x autumn! type beat",
+        "cover": "dissin.jpg",
+        "tags": ["slump6s", "kankan"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=yC93W6A8fKg"
+        }
+    },
+    {
+        "name": "miss the rage",
+        "release": "2022/08/05",
+        "length": 115,
+        "key": "f sharp minor",
+        "bpm": 150,
+        "license": "free for non profit",
+        "description": "trippie redd x ecco2k x ssgkobe x lil uzi vert hyperrage type beat",
+        "cover": "miss-the-rage.jpg",
+        "tags": ["hyperpop", "poppunk", "glitchcore"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=6VmDYf3SRBw"
+        }
+    },
+    {
+        "name": "oxy",
+        "release": "2022/08/05",
+        "length": 113,
+        "key": "b minor",
+        "bpm": 123,
+        "license": "free for non profit",
+        "description": "ecco2k x ssgkobe x lili uzi vert x trippie redd hyperpop type beat",
+        "cover": "oxy.jpg",
+        "tags": ["hyperpop", "poppunk", "glitchcore"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=65fplpCO18Q"
+        }
+    },
+    {
+        "name": "amg",
+        "release": "2022/08/04",
+        "length": 132,
+        "key": "a sharp major",
+        "bpm": 130,
+        "license": "free for non profit",
+        "description": "kankan x slump6s x sgpwes x synthetic type beat",
+        "cover": "amg.jpg",
+        "tags": ["kankan", "synthetic"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=Cr-BPe4D1B8"
+        }
+    },
+    {
+        "name": "on edge",
+        "release": "2022/08/03",
+        "length": 157,
+        "key": "e minor",
+        "bpm": 122,
+        "license": "free for non profit",
+        "description": "kashdami x tana x autumn! x summrs pluggnb type beat",
+        "cover": "on-edge.jpg",
+        "tags": ["kashdami", "pluggnb", "tana"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=e_EeUnidRfs"
+        }
+    },
+    {
+        "name": "clue",
+        "release": "2022/08/03",
+        "length": 148,
+        "key": "f minor",
+        "bpm": 123,
+        "license": "free for non profit",
+        "description": "slump6s x sgpwes x summrs x yvngxchris type beat",
+        "cover": "clue.jpg",
+        "tags": ["slump6s", "sqpwes"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=JV85ZzsUBqc"
+        }
+    },
+    {
+        "name": "8x",
+        "release": "2022/07/29",
+        "length": 125,
+        "key": "d minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "kankan x yeat x synthetic pluggnb type beat",
+        "cover": "8x.jpg",
+        "tags": ["kankan", "synthetic"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=AOV9HXpuuFw"
+        }
+    },
+    {
+        "name": "berlin",
+        "release": "2022/07/28",
+        "length": 162,
+        "key": "c sharp minor",
+        "bpm": 142,
+        "license": "free for non profit",
+        "description": "tana x sofaygo x autumn! pluggnb type beat",
+        "cover": "berlin.jpg",
+        "tags": ["sofaygo", "pluggnb", "babysantana"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=032iw5BRggA"
+        }
+    },
+    {
+        "name": "MDMA",
+        "release": "2022/07/27",
+        "length": 138,
+        "key": "d minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "kashdami x summrs x autumn! pluggnb type beat",
+        "cover": "mdma.jpg",
+        "tags": ["kashdami", "pluggnb", "autumn"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=svYAVp_fA7E"
+        }
+    },
+    {
+        "name": "spinz",
+        "release": "2022/07/27",
+        "length": 154,
+        "key": "f minor",
+        "bpm": 124,
+        "license": "free for non profit",
+        "description": "kankan x autumn! x summrs pluggnb type beat",
+        "cover": "spinz.jpg",
+        "tags": ["pluggnb", "kankan", "autumn"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=EwYH47_oiUY"
+        }
+    },
+    {
+        "name": "bentley coupe",
+        "release": "2022/07/25",
+        "length": 119,
+        "key": "d sharp minor",
+        "bpm": 137,
+        "license": "free for non profit",
+        "description": "lil baby x gunna x rio leyva type beat",
+        "cover": "bentley-coupe.jpg",
+        "tags": ["gunna", "lilbaby"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=Cwbusk4_b9I"
+        }
+    },
+    {
+        "name": "turban",
+        "release": "2022/07/22",
+        "length": 156,
+        "key": "d minor",
+        "bpm": 172,
+        "license": "free for non profit",
+        "description": "yeat x kankan x synthetic rage type beat",
+        "cover": "turban.jpg",
+        "tags": ["yeat", "tonka", "dirtysprite"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=CW-wmjgVy0Q"
+        }
+    },
+    {
+        "name": "goyard",
+        "release": "2022/07/21",
+        "length": 150,
+        "key": "g major",
+        "bpm": 115,
+        "license": "free for non profit",
+        "description": "kashdami x kankan x babysantana ambient type beat",
+        "cover": "goyard.jpg",
+        "tags": ["kashdami", "babysantana"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=NiQJ_Fu0fNg"
+        }
+    },
+    {
+        "name": "neon pop",
+        "release": "2022/07/20",
+        "length": 140,
+        "key": "e minor",
+        "bpm": 105,
+        "license": "free for non profit",
+        "description": "kashdami x kankan x babysantana ambient type beat",
+        "cover": "neon-pop.jpg",
+        "tags": ["kashdami", "babysantana"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=umRlelonufk"
+        }
+    },
+    {
+        "name": "hellfire",
+        "release": "2022/07/19",
+        "length": 132,
+        "key": "d minor",
+        "bpm": 130,
+        "license": "free for non profit",
+        "description": "yeat x kankan x autumn! type beat",
+        "cover": "hellfire.jpg",
+        "tags": ["yeat", "kankan"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=b-11g2CTn88"
+        }
+    },
+    {
+        "name": "M4A1-S",
+        "release": "2022/07/18",
+        "length": 142,
+        "key": "e minor",
+        "bpm": 135,
+        "license": "free for non profit",
+        "description": "dro kenji x census x nick mira guitar type beat",
+        "cover": "m4a1-s.jpg",
+        "tags": ["dontoliver", "internetmoney", "drokenji"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=jgxO4jSsIa0"
+        }
+    },
+    {
+        "name": "aria",
+        "release": "2022/07/15",
+        "length": 167,
+        "key": "f sharp minor",
+        "bpm": 103,
+        "license": "free for non profit",
+        "description": "kashdami x kankan x babysantana ambient type beat",
+        "cover": "aria.jpg",
+        "tags": ["kashdami", "babysantana", "ephipany"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=Oz8T8M5Ajl4"
+        }
+    },
+    {
+        "name": "plug",
+        "release": "2022/07/14",
+        "length": 157,
+        "key": "b minor",
+        "bpm": 147,
+        "license": "free for non profit",
+        "description": "kankan x autumn! x summrs type beat",
+        "cover": "plug.jpg",
+        "tags": ["kankan", "pluggnb", "autumn"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=hvyAEXO1C0Y"
+        }
+    },
+    {
+        "name": "after me",
+        "release": "2022/07/13",
+        "length": 120,
+        "key": "c sharp minor",
+        "bpm": 130,
+        "license": "free for non profit",
+        "description": "kankan x synthetic x yeat type beat",
+        "cover": "after-me.jpg",
+        "tags": ["yeat", "kankan"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=S8FyyrtbPKU"
+        }
+    },
+    {
+        "name": "moving",
+        "release": "2022/06/09",
+        "length": 165,
+        "key": "f sharp minor",
+        "bpm": 117,
+        "license": "free for non profit",
+        "description": "kashdami x dom corleo x babysantana pluggnb type beat",
+        "cover": "moving.jpg",
+        "tags": ["kashdami", "pluggnb", "domcorleo"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=_SW3xkCFLQ0"
+        }
+    },
+    {
+        "name": "blue love",
+        "release": "2022/06/01",
+        "length": 130,
+        "key": "e minor",
+        "bpm": 148,
+        "license": "free for non profit",
+        "description": "dro kenji x census x nick mira type beat",
+        "cover": "blue-love.jpg",
+        "tags": ["census", "internetmoney", "drokenji"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=yxN49WJuIYA"
+        }
+    },
+    {
+        "name": "jäpän",
+        "release": "2022/05/31",
+        "length": 138,
+        "key": "a sharp minor",
+        "bpm": 125,
+        "license": "free for non profit",
+        "description": "kankan x kashdami x autumn! type beat",
+        "cover": "japan.jpg",
+        "tags": ["kashdami", "kankan", "autumn"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=BJltK-WxRiI"
+        }
+    },
+    {
+        "name": "long forgotten",
+        "release": "2022/05/27",
+        "length": 147,
+        "key": "d sharp minor",
+        "bpm": 130,
+        "license": "free for non profit",
+        "description": "kashdami x dom corleo x babysantana pluggnb type beat",
+        "cover": "long-forgotten.jpg",
+        "tags": ["kashdami", "pluggnb", "domcorleo"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=KBzJrfOMMTs"
+        }
+    },
+    {
+        "name": "up to më",
+        "release": "2022/05/25",
+        "length": 137,
+        "key": "c minor",
+        "bpm": 142,
+        "license": "free for non profit",
+        "description": "yeat x kankan x autumn! type beat",
+        "cover": "up-to-me.jpg",
+        "tags": ["yeat", "kankan"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=2AqnQeCJ3zY"
+        }
+    },
+    {
+        "name": "wideboy",
+        "release": "2022/05/24",
+        "length": 134,
+        "key": "d sharp minor",
+        "bpm": 131,
+        "license": "free for non profit",
+        "description": "yeat x kankan x babysantana type beat",
+        "cover": "wideboy.jpg",
+        "tags": ["yeat", "kankan"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=W_L0jDQYU_w"
+        }
+    },
+    {
+        "name": "redd",
+        "release": "2022/05/18",
+        "length": 123,
+        "key": "f minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "yeat x trippie redd x internetmoney type beat",
+        "cover": "redd.jpg",
+        "tags": ["yeat", "trippieredd", "internetmoney"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=LAhJyeJA7Fk"
+        }
+    },
+    {
+        "name": "drainin",
+        "release": "2022/05/16",
+        "length": 111,
+        "key": "b minor",
+        "bpm": 171,
+        "license": "free for non profit",
+        "description": "rio leyva x bladee x ecco2k type beat",
+        "cover": "drainin.jpg",
+        "tags": ["draingang", "bladee", "ecco2k"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=Edqbk4M5pYQ"
+        }
+    },
+    {
+        "name": "lightning",
+        "release": "2022/05/07",
+        "length": 125,
+        "key": "c minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "lil baby x gunna x rio leyva type beat",
+        "cover": "lightning.jpg",
+        "tags": ["gunna", "lilbaby", "pushinp"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=RQn6eCuF2MU"
+        }
+    },
+    {
+        "name": "twizzy",
+        "release": "2022/04/30",
+        "length": 162,
+        "key": "f minor",
+        "bpm": 124,
+        "license": "free for non profit",
+        "description": "yeat x kankan x autumn! type beat",
+        "cover": "twizzy.jpg",
+        "tags": ["yeat", "kankan"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=xVSMYBh6LHw"
+        }
+    },
+    {
+        "name": "gorillaz",
+        "release": "2022/04/29",
+        "length": 146,
+        "key": "e minor",
+        "bpm": 138,
+        "license": "free for non profit",
+        "description": "dro kenji x nick mira x rio leyva type beat",
+        "cover": "gorillaz.jpg",
+        "tags": ["internetmoney", "nickmira", "drokenji", "rioleyva"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=eM4wthHD7OU"
+        }
+    },
+    {
+        "name": "5k",
+        "release": "2022/04/28",
+        "length": 147,
+        "key": "g sharp minor",
+        "bpm": 130,
+        "license": "free for non profit",
+        "description": "yeat x trippie redd x 1rafmade type beat",
+        "cover": "5k.jpg",
+        "tags": ["yeat", "trippieredd", "1rafmade"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=b7zHvRfFZyE"
+        }
+    },
+    {
+        "name": "katana",
+        "release": "2022/04/26",
+        "length": 133,
+        "key": "b minor",
+        "bpm": 146,
+        "license": "free for non profit",
+        "description": "john luther x rio leyva x internetmoney type beat",
+        "cover": "katana.jpg",
+        "tags": ["internetmoney"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=ZtAhociuqLw&t=8s"
+        }
+    },
+    {
+        "name": "ethernal",
+        "release": "2022/04/25",
+        "length": 137,
+        "key": "f harmonic minor",
+        "bpm": 112,
+        "license": "free for non profit",
+        "description": "kashdami x ssgkobe x babysantana type beat",
+        "cover": "ethernal.jpg",
+        "tags": ["kashdami", "ssgkobe"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=8jJShXyfbZw"
+        }
+    },
+    {
+        "name": "demon time",
+        "release": "2022/04/23",
+        "length": 125,
+        "key": "d minor",
+        "bpm": 168,
+        "license": "free for non profit",
+        "description": "trippie redd x playboi carti x internetmoney type beat",
+        "cover": "demon-time.jpg",
+        "tags": ["trippieredd", "internetmoney"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=mCZw3zX0ojM"
+        }
+    },
+    {
+        "name": "dnd",
+        "release": "2022/04/22",
+        "length": 145,
+        "key": "e major",
+        "bpm": 158,
+        "license": "free for non profit",
+        "description": "yeat x trippie redd x internetmoney type beat",
+        "cover": "dnd.jpg",
+        "tags": ["yeat", "dirtysprite"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=ozO6M3PYAbg&t=2s"
+        }
+    },
+    {
+        "name": "8bit",
+        "release": "2022/04/21",
+        "length": 111,
+        "key": "c sharp minor",
+        "bpm": 130,
+        "license": "free for non profit",
+        "description": "kashdami x ssgkobe x babysantana type beat",
+        "cover": "8bit.jpg",
+        "tags": ["kashdami", "ssgkobe", "babysantana"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=_ssjra2Tprw"
+        }
+    },
+    {
+        "name": "wake up",
+        "release": "2022/04/20",
+        "length": 144,
+        "key": "g minor",
+        "bpm": 132,
+        "license": "free for non profit",
+        "description": "babysantana x kashdami x ssgkobe type beat",
+        "cover": "wake-up.jpg",
+        "tags": ["babysantana", "ssgkobe"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=1Tq8PAN8eHw"
+        }
+    },
+    {
+        "name": "3/3",
+        "release": "2022/04/14",
+        "length": 137,
+        "key": "g minor",
+        "bpm": 140,
+        "license": "free for non profit",
+        "description": "grasa x ibbigang x szalai type beat",
+        "cover": "3per3.jpg",
+        "tags": ["grasa", "ibbigang"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=qgggwXmEH5g"
+        }
+    },
+    {
+        "name": "mønëytwërk",
+        "release": "2022/04/13",
+        "length": 179,
+        "key": "c minor",
+        "bpm": 139,
+        "license": "free for non profit",
+        "description": "yeat x kankan x autumn! type beat",
+        "cover": "moneytwerk.jpg",
+        "tags": ["yeat", "kankan"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=acoaDvbR1QU"
+        }
+    },
+    {
+        "name": "gameboy",
+        "release": "2022/04/12",
+        "length": 147,
+        "key": "g minor",
+        "bpm": 143,
+        "license": "free for non profit",
+        "description": "dro kenji x scorey x nick mira type beat",
+        "cover": "gameboy.jpg",
+        "tags": ["drokenji", "nickmira"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=G4TWdonkCfs"
+        }
+    },
+    {
+        "name": "fukit",
+        "release": "2022/04/08",
+        "length": 140,
+        "key": "f harmonic minor",
+        "bpm": 145,
+        "license": "free for non profit",
+        "description": "yeat x trippie redd x septembersrich type beat",
+        "cover": "fukit.jpg",
+        "tags": ["yeat", "septembersrich", "dirtysprite"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=JHMRSSWdpwM"
+        }
+    },
+    {
+        "name": "!!4!",
+        "release": "2022/04/06",
+        "length": 132,
+        "key": "c phrygian",
+        "bpm": 130,
+        "license": "free for non profit",
+        "description": "kankan x yeat x autumn! type beat",
+        "cover": "4.jpg",
+        "tags": ["yeat", "kankan"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=yThk4NtGWv8"
+        }
     }
   ]
