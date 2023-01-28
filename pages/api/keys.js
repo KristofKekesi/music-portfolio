@@ -20,6 +20,8 @@ import { beats } from "@/config";
             keys.push(beat.key);
         }
     })
+    
+    keys.sort();
   
     res.status(200).json(keys);
   }

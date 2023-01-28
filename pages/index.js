@@ -8,17 +8,33 @@ import { useEffect } from "react";
 
 import { Space_Grotesk } from "@next/font/google";
 
-import { youtube, soundcloud, beatstars, beats, server} from "@/config";
+import { youtube, soundcloud, beatstars, server} from "@/config";
 
 import bg from "../public/bg.png";
 import filter from "../public/filter.svg";
 import right from "../public/right.svg";
 
+import Featured from "@/components/Featured/Featured";
+import RandomBeat from "@/components/RandomBeat/RandomBeat";
+
+import getBeats from "@/functions/api/beats";
+
+
+//    TURTLE - TEKI
+//    (°-°) _______
+//      \ / - - - \_
+//       \_  ___  ___>
+//         \__) \__)
+
+
 const space_grotesk = Space_Grotesk({ subsets: ["latin"], weight: "700"});
 
-export default function Home() {
+export default function Home({ beats, mostPopularBeat, randomBeat }) {
+	console.log(beats)
+	console.log(mostPopularBeat)
+	console.log(randomBeat)
 	useEffect(() => {
-        window.addEventListener("scroll", event => {
+		window.addEventListener("scroll", _ => {
 			const navItems = Array.from(document.getElementsByClassName("nav-item"));
 
 			if (document.getElementsByTagName("html")[0].getAttribute("selected") != "") {
@@ -73,67 +89,22 @@ export default function Home() {
 				</nav>
 				<div className="flex justify-center self-center pt-24">
 					<div className="flex flex-wrap p-8 gap-8">
-						<div>
-							<h2 className={space_grotesk.className + " text-2xl px-4"}>Latest Drop</h2>
-							<div className="rounded-2xl bg-white/10 flex md:flex-row flex-col max-w-2xl">
-								<div className="h-96 w-96 bg-white/10 rounded-2xl"></div>
-									<div className="flex-row p-6 md:p-8">
-										<p className={space_grotesk.className + " md:pt-0 pt-2 text-sm opacity-60"}>2023/01/11</p>
-										<div className="flex gap-4 items-baseline">
-											<p className={space_grotesk.className + " text-3xl"}>hearthless</p>
-											<p className={space_grotesk.className + " text-base opacity-50"}>1:14</p>
-										</div>
-										<div className="flex gap-8 pt-4">
-											<p className={space_grotesk.className}><span className="text-2xl">140</span><span className="opacity-60">bpm</span></p>
-											<p className={space_grotesk.className}><span className="text-2xl">C</span><span className="opacity-60"> sharp minor</span></p>
-										</div>
-										<p className={space_grotesk.className + " opacity-60 text-justify"}>lunchbox x cheromani x new jazz ype beat</p>
-										<div className="flex gap-4">
-													<p className={space_grotesk.className + " pt-4 text-violet-600"}>#cheromani</p>
-													<p className={space_grotesk.className + " pt-4 text-fuchsia-600"}>#newjazz</p>
-													<p className={space_grotesk.className + " pt-4 text-amber-600"}>#hardrock</p>
-												</div>
-											<Link href={ server + "/beats/hearthless" } className={space_grotesk.className + " text-right pt-12 text-2xl flex justify-end items-center"}>More<Image alt="More" className="p-1 w-12 h-12" src={right}></Image></Link>
-									</div>
-								</div>
-							</div>
-							<div>
-								<h2 className={space_grotesk.className + " text-2xl px-4"}>Most Popular</h2>
-								<div className="rounded-2xl bg-white/10 flex md:flex-row flex-col max-w-2xl">
-									<div className="h-96 w-96 min-h-fit min-w-fit bg-white/10 rounded-2xl"></div>
-										<div className="flex flex-col justify-between p-6 md:p-8">
-											<div className="flex flex-col">
-												<p className={space_grotesk.className + " md:pt-0 pt-2 text-sm opacity-60"}>11.421 streams</p>
-												<div className="flex gap-4 items-baseline">
-													<p className={space_grotesk.className + " text-3xl"}>plot!</p>
-													<p className={space_grotesk.className + " text-base opacity-50"}>2:03</p>
-												</div>
-												<div className="flex gap-8 pt-4">
-													<p className={space_grotesk.className}><span className="text-2xl">142</span><span className="opacity-60">bpm</span></p>
-													<p className={space_grotesk.className}><span className="text-2xl">F</span><span className="opacity-60"> major</span></p>
-												</div>
-												<p className={space_grotesk.className + " opacity-60 text-justify"}>lunchbox x cheromani x new jazz ype beat</p>
-												<div className="flex gap-4">
-													<p className={space_grotesk.className + " pt-4 text-violet-600 hover:text-violet-400 transition-colors"}>#iayze</p>
-													<p className={space_grotesk.className + " pt-4 text-fuchsia-600 hover:text-fuchsia-400 transition-colors"}>#domcorleo</p>
-													<p className={space_grotesk.className + " pt-4 text-amber-600 hover:text-amber-400 transition-colors"}>#hardrock</p>
-												</div>
-											</div>
-											<Link href={ server + "/beats/plot" } className={space_grotesk.className + " text-right pt-12 text-2xl flex justify-end items-center"}>More<Image alt="More" className="p-1 w-12 h-12" src={right}></Image></Link>
-										</div>
-									</div>
-							</div>
+						<Featured title="Latest Drop" beat={beats[0]} type="latest" />
+						<Featured title="Most Popular" beat={mostPopularBeat} type="popular" />
+						<RandomBeat beat={randomBeat} />
 						<div>
 						<h2 className={space_grotesk.className + " text-2xl px-4"}>All Beats <span className="text-sm opacity-60">({beats.length})</span></h2>
 							<div className="flex flex-wrap gap-2">
 								{ beats.map((beat) => {
-									let name = (beat.name.substring(0, 16));
-									if (beat.name !== name) {
+									let name = (beat.name.substring(0, 10));
+									if (beat.name !== name && beat.name.length >= 13 ) {
 										name += "...";
+									} else {
+										name = beat.name;
 									}
 
 									return (
-										<Link key={beat.cover} href={ encodeURI(server + "/beats/" + beat.name) } className="flex flex-col justify-center items-center content-center group">
+										<Link key={beat.cover} href={ encodeURI(server + "/beats/" + beat.id) } className="flex flex-col justify-center items-center content-center group">
 											<div className="a h-32 w-32 bg-white/20 rounded-2xl"></div>
 											<span className={space_grotesk.className + " text-base transition-colors text-white/60 group-hover:text-white"}>{ name }</span>
 										</Link>
@@ -143,6 +114,7 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
+				<iframe src="//www.beatstars.com/embed/track/?id=13392149" height="140" className="w-screen" style={{border: "none"}}></iframe>
 				<footer className="flex flex-row items-top justify-between items-center w-full p-8 pt-4 pb-4 gap-8 z-50 border-t border-black bg-black/25 backdrop-blur-xl">
 					<div className="flex flex-row items-top justify-start items-center gap-2">
 						<div className={ space_grotesk.className + " text-base text-white/60"}>Made by <Link href="https://www.kekesi.dev" className="text-white">Kristof Kekesi</Link> for</div>
@@ -156,3 +128,14 @@ export default function Home() {
 		</>
 	)
 }
+
+
+export const getStaticProps = async ( _ ) => {
+	return {
+		props: {
+			beats: await getBeats(undefined, undefined, undefined, undefined, undefined, undefined, undefined),
+			mostPopularBeat: await getBeats(undefined, undefined, undefined, undefined, undefined, undefined, "streams")[0],
+			randomBeat: await getBeats().sort( () => .5 - Math.random() )[0]
+		}
+	};
+};
