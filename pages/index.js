@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer/Footer";
 
 import { Space_Grotesk } from "@next/font/google";
 
@@ -66,15 +67,7 @@ export default function Home({ beats, mostPopularBeat, randomBeat }) {
 						</div>
 					</div>
 				</div>
-				<footer className="flex flex-row items-top justify-between items-center w-full p-8 pt-4 pb-4 gap-8 z-50 border-y border-black bg-black/25 backdrop-blur-xl">
-					<div className="flex flex-row items-top justify-start items-center gap-2">
-						<div className={ space_grotesk.className + " text-base text-white/60"}>Made by <Link href="https://www.kekesi.dev" className="text-white">Kristof Kekesi</Link> for</div>
-						<h1 className={space_grotesk.className + " text-2xl"}>
-							Jaki<span className={"a -ml-1 italic tracking-tighter text-white/50 inline-block"}>mixed</span>it
-						</h1>
-					</div>
-					<div className={ space_grotesk.className + " text-base text-white/60"}>Copyright © 2023 Jakimixedit. All Rights Reserved.</div>
-				</footer>
+				<Footer />
 				<iframe src="//www.beatstars.com/embed/track/?id=13580069" height="140" className="w-screen px-3" style={{border: "none", background: "#30243c"}}></iframe>
 			</main>
 		</>

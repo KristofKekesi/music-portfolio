@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { youtube, soundcloud, beatstars } from "@/config";
+import { youtube, soundcloud, beatstars, server } from "@/config";
 import filter from "../../public/filter.svg";
 
 import { Space_Grotesk } from "@next/font/google";
@@ -49,9 +49,11 @@ export default function Navbar(_) {
 
     return (
         <nav id="header" className="flex flex-row items-top justify-between w-full p-8 pt-4 pb-4 gap-8 fixed top-0 left-0 z-50">
-            <h1 className={space_grotesk.className + " text-7xl"}>
-                Jaki<span className={"a -ml-4 italic tracking-tighter text-white/50 inline-block"}>mixed</span>it
-            </h1>
+            <Link href={ server }>
+				<h1 className={space_grotesk.className + " text-7xl"}>
+                	Jaki<span className={"a -ml-4 italic tracking-tighter text-white/50 inline-block"}>mixed</span>it
+            	</h1>
+			</Link>
             <h1 className={space_grotesk.className + " text-xl transition-all nav-item"}>
                 <Link href={ youtube } className="hover:text-red-600 transition-colors">youtube</Link>
             </h1>

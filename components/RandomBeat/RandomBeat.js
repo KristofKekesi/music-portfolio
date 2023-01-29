@@ -25,9 +25,7 @@ export default function Featured(props) {
     let key = props.beat.key.split(" ");
     let letter = key[0].toUpperCase();
     key.shift();
-    console.log(key)
     key = key.join(" ");
-    console.log(key)
     
 
     return (
