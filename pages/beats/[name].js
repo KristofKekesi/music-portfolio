@@ -118,7 +118,7 @@ export default function BeatPage({ beat, beatsLikeThis }) {
 
 export const getStaticProps = async ( params ) => {
 	const beat = await getBeats({ id: decodeURI(params.params.name) })[0];
-	const beatsLikeThis = await getBeats({ like: decodeURI(params.params.name) });
+	const beatsLikeThis = await getBeats({ like: decodeURI(params.params.name), limit: 20 });
     
     if (beat.links.youtube != undefined) {
         beat.youtubeID = beat.links.youtube.split("v=")[1];

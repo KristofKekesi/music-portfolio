@@ -8,7 +8,7 @@ import { beats, server } from "@/config";
 //         \__) \__)
 
 
-function organiseBeats(beats, organise, exclude) {
+function organiseBeats(beats, organise, exclude, limit) {
 	function dynamicSort(property) {
 		var sortOrder = 1;
 		if(property[0] === "-") {
@@ -22,10 +22,8 @@ function organiseBeats(beats, organise, exclude) {
 	}
 
 	// exclude
-	console.log(exclude)
 	if (exclude != undefined) {
 		const blackList = exclude.split(",");
-		console.log(blackList)
 		beats = beats.filter(beat => {
 			if (blackList.includes(beat.id)) {
 				return;
@@ -38,23 +36,36 @@ function organiseBeats(beats, organise, exclude) {
 	// organise
 	switch (organise) {
 		case "name": 
-			return beats.sort(dynamicSort("name"));
+			beats.sort(dynamicSort("name"));
+			break;
 		case "bpm": 
-			return beats.sort(dynamicSort("maxBPM"));
+			beats.sort(dynamicSort("maxBPM"));
+			break;
 		case "release": 
-			return beats.sort(dynamicSort("release"));
+			beats.sort(dynamicSort("release"));
+			break;
 		case "key": 
-			return beats.sort(dynamicSort("key"));
+			beats.sort(dynamicSort("key"));
+			break;
 		case "streams": 
-			return beats.sort(dynamicSort("allStreams"));
-		default: return beats.sort(dynamicSort("release")).reverse();
+			beats.sort(dynamicSort("allStreams"));
+			break;
+		default:
+			beats.sort(dynamicSort("release")).reverse();
+			break;
 	}
+
+	// limit
+	if (limit != undefined && limit > -1) {
+		beats = beats.slice(0, limit);
+	}
+
+	return beats;
 }
 
 
-export default function getBeats({id = undefined, bpm = undefined, name = undefined, release = undefined, key = undefined, tag = undefined, license = undefined, organise = undefined, exclude = undefined} = {}) {
+export default function getBeats({id = undefined, bpm = undefined, name = undefined, release = undefined, key = undefined, tag = undefined, license = undefined, organise = undefined, exclude = undefined, limit = undefined} = {}) {
 	// TODO(KristofKekesi): from till query parameters eg: bpm_from=100 bpm_till=110
-	// TODO(KristofKekesi): limit output
 	return organiseBeats(beats.filter(beat => {
 		// organise values
 		beat.tags.sort();
@@ -89,5 +100,5 @@ export default function getBeats({id = undefined, bpm = undefined, name = undefi
 		}
 
 		return beat;
-	}), organise, exclude);
+	}), organise, exclude, limit);
 }

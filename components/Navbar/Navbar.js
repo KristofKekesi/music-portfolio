@@ -18,7 +18,6 @@ import { useEffect } from "react";
 
 const space_grotesk = Space_Grotesk({ subsets: ["latin"], weight: "700"});
 
-//TODO(KristofKekesi)
 export default function Navbar(props) {
     useEffect(() => {
 		window.addEventListener("scroll", _ => {

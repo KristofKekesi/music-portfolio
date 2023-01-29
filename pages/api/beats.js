@@ -11,11 +11,11 @@ import getBeats from "@/functions/api/beats";
 export default function handler(req, res) {
   const {
     // TODO(KristofKekesi): from till query parameters eg: bpm_from=100 bpm_till=110
-    query: { bpm, name, release, key, license, tag, organise, exclude },
+    query: { bpm, name, release, key, license, tag, organise, exclude, limit },
     method,
   } = req;
 
   res.status(200).json(
-    getBeats({bpm: bpm, name: name, release: release, key: key, license: license, tag: tag, organise: organise, exclude: exclude})
+    getBeats({bpm: bpm, name: name, release: release, key: key, license: license, tag: tag, organise: organise, exclude: exclude, limit: limit})
   );
 }

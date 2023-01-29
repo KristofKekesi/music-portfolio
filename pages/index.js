@@ -83,6 +83,7 @@ export const getStaticProps = async ( _ ) => {
 			beats: beats,
 			mostPopularBeat: mostPopularBeat,
 			randomBeat: randomBeat
-		}
+		},
+		revalidate: 10
 	};
 };

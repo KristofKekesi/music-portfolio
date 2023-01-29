@@ -17,7 +17,6 @@ import secondsToDisplay from "@/functions/secondsToDisplay";
 
 const space_grotesk = Space_Grotesk({ subsets: ["latin"], weight: "700"});
 
-//TODO(KristofKekesi)
 export default function Featured(props) {
     // PROPS:
     //beat (Object), type (String; latest or popular)
