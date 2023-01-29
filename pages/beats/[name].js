@@ -100,7 +100,7 @@ export default function BeatPage({ beat, beatsLikeThis }) {
                             }
 
                             return (
-                                <Link href={ encodeURI(beat.url) } className="flex flex-col justify-center items-center content-center group col-span-1">
+                                <Link key={beat.id} href={ encodeURI(beat.url) } className="flex flex-col justify-center items-center content-center group col-span-1">
                                     <div className="a h-32 w-32 bg-white/20 rounded-2xl"></div>
                                     <span className={space_grotesk.className + " text-base transition-colors text-white/60 group-hover:text-white"}>{ name }</span>
                                 </Link>
