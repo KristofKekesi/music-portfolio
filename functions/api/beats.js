@@ -8,7 +8,7 @@ import { beats, server } from "@/config";
 //         \__) \__)
 
 
-function organiseBeats(beats, organise) {
+function organiseBeats(beats, organise, exclude) {
 	function dynamicSort(property) {
 		var sortOrder = 1;
 		if(property[0] === "-") {
@@ -19,6 +19,19 @@ function organiseBeats(beats, organise) {
 			var result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
 			return result * sortOrder;
 		}
+	}
+
+	// exclude
+	console.log(exclude)
+	if (exclude != undefined) {
+		const blackList = exclude.split(",");
+		console.log(blackList)
+		beats = beats.filter(beat => {
+			if (blackList.includes(beat.id)) {
+				return;
+			}
+			return beat;
+		});
 	}
 
 
@@ -39,9 +52,9 @@ function organiseBeats(beats, organise) {
 }
 
 
-export default function getBeats({id = undefined, bpm = undefined, name = undefined, release = undefined, key = undefined, tag = undefined, license = undefined, organise = undefined} = {}) {
+export default function getBeats({id = undefined, bpm = undefined, name = undefined, release = undefined, key = undefined, tag = undefined, license = undefined, organise = undefined, exclude = undefined} = {}) {
 	// TODO(KristofKekesi): from till query parameters eg: bpm_from=100 bpm_till=110
-	// TODO(KristofKekesi): exclude beats
+	// TODO(KristofKekesi): limit output
 	return organiseBeats(beats.filter(beat => {
 		// organise values
 		beat.tags.sort();
@@ -76,5 +89,5 @@ export default function getBeats({id = undefined, bpm = undefined, name = undefi
 		}
 
 		return beat;
-	}), organise);
+	}), organise, exclude);
 }

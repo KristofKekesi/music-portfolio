@@ -25,7 +25,7 @@ export default function Navbar(props) {
 			const navItems = Array.from(document.getElementsByClassName("nav-item"));
 
 			if (document.getElementsByTagName("html")[0].getAttribute("selected") != "") {
-				if(document.getElementsByTagName("main")[0].getBoundingClientRect().top > -42) {
+				if(document.getElementsByTagName("main")[0].getBoundingClientRect().top > -10) {
 					document.getElementById("header").classList.remove("border-b", "border-black", "bg-black/25", "backdrop-blur-xl");
 					document.getElementById("search-bar").classList.remove("translate-y-1/2", "bg-white/20");
 					document.getElementById("search-bar").classList.add("bg-white/10");
@@ -48,7 +48,7 @@ export default function Navbar(props) {
 	}, []);
 
     return (
-        <nav id="header" className={"flex flex-row items-top justify-between w-full p-8 pt-4 pb-4 gap-8 fixed top-0 left-0 z-50 " + props.className}>
+        <nav id="header" className={"flex flex-row items-top justify-between w-full p-8 pt-4 pb-4 gap-8 fixed top-0 left-0 z-40 " + props.className}>
             <Link href={ server + "/" }>
 				<h1 className={space_grotesk.className + " text-7xl"}>
                 	Jaki<span className={"a -ml-4 italic tracking-tighter text-white/50 inline-block"}>mixed</span>it
