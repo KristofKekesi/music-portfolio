@@ -36,12 +36,12 @@ export default function Featured(props) {
                 <div className="h-96 w-96 aspect-square bg-white/10 rounded-2xl"></div>
                     <div className="flex flex-col justify-between p-6 md:p-8 w-full">
                         <div className="flex flex-col">
-                            <p className={space_grotesk.className + " md:pt-0 pt-2 text-sm opacity-60"}>{ feature }</p>
+                            <p className={space_grotesk.className + " pt-0 text-sm opacity-60"}>{ feature }</p>
                             <div className="flex gap-4 items-baseline">
                                 <p className={space_grotesk.className + " text-3xl"}>{ props.beat.name }</p>
                                 <p className={space_grotesk.className + " text-base opacity-50"}>{ secondsToDisplay(props.beat.length) }</p>
                             </div>
-                            <div className="flex gap-8 pt-4 whitespace-nowrap">
+                            <div className="flex flex-wrap gap-x-8 pt-4 whitespace-nowrap">
                                 <p className={space_grotesk.className}><span className="text-2xl">{ props.beat.bpm.join(", ") }</span><span className="opacity-60">bpm</span></p>
                                 <p className={space_grotesk.className}><span className="text-2xl">{ letter }</span><span className="opacity-60"> { key }</span></p>
                             </div>
@@ -52,7 +52,7 @@ export default function Featured(props) {
                                 <p className={space_grotesk.className + " text-amber-600 hover:text-amber-400 transition-colors"}>#hardrock</p>
                             </div>
                         </div>
-                        <Link href={ encodeURI(props.beat.url) } className={space_grotesk.className + " text-right pt-12 text-2xl flex justify-end items-center"}>More<Image alt="More" className="p-1 w-12 h-12" src={right}></Image></Link>
+                        <Link href={ encodeURI(props.beat.url) } className={space_grotesk.className + " text-right text-2xl flex justify-end items-center"}>More<Image alt="More" className="p-1 w-12 h-12" src={right}></Image></Link>
                     </div>
                 </div>
         </div>

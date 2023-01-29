@@ -19,7 +19,7 @@ import { useEffect } from "react";
 const space_grotesk = Space_Grotesk({ subsets: ["latin"], weight: "700"});
 
 //TODO(KristofKekesi)
-export default function Navbar(_) {
+export default function Navbar(props) {
     useEffect(() => {
 		window.addEventListener("scroll", _ => {
 			const navItems = Array.from(document.getElementsByClassName("nav-item"));
@@ -48,8 +48,8 @@ export default function Navbar(_) {
 	}, []);
 
     return (
-        <nav id="header" className="flex flex-row items-top justify-between w-full p-8 pt-4 pb-4 gap-8 fixed top-0 left-0 z-50">
-            <Link href={ server }>
+        <nav id="header" className={"flex flex-row items-top justify-between w-full p-8 pt-4 pb-4 gap-8 fixed top-0 left-0 z-50 " + props.className}>
+            <Link href={ server + "/" }>
 				<h1 className={space_grotesk.className + " text-7xl"}>
                 	Jaki<span className={"a -ml-4 italic tracking-tighter text-white/50 inline-block"}>mixed</span>it
             	</h1>

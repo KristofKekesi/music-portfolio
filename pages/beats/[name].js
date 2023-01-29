@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
+import Link from "next/link";
 
 import { server } from "@/config";
 import getBeats from "@/functions/api/beats";
@@ -33,7 +34,7 @@ export const getStaticPaths = async () => {
 }
 
 
-export default function BeatPage({ beat }) {
+export default function BeatPage({ beat, beatsLikeThis }) {
     return (
         <>
             <Navbar />
@@ -41,25 +42,45 @@ export default function BeatPage({ beat }) {
                 style={{
                     backgroundImage: `url(${bg.src})`,
                 }}>
-                {beat.links.beatstars != undefined ?
-                    <div className="px-8 pt-8">
-                        <h2 className={space_grotesk.className + " text-2xl px-4"}>License it on beatstars</h2>
-                        <iframe src={"//www.beatstars.com/embed/track/?id=" + beat.beatstarsID} height="140" className="w-full rounded-2xl border border-black" style={{border: "none", background: "#30243c"}}></iframe>
-                    </div> : null
-                }
                 <div className="px-8">
                     {(beat.links.youtube != undefined && beat.links.beatstars == undefined) ?
                         <div className="pt-8">
                             <h2 className={space_grotesk.className + " text-2xl px-4"}>Stream it on youtube</h2>
-                            <iframe width="560" height="315" src={"https://www.youtube-nocookie.com/embed/" + beat.youtubeID + "?controls=0"} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className="rounded-2xl col-span-4 bg-black"></iframe>
+                            <iframe width="560" height="315" src={"https://www.youtube-nocookie.com/embed/" + beat.youtubeID + "?"} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="rounded-2xl col-span-4 bg-black"></iframe>
                         </div>
-                     : <>
+                     : <div className="pt-8">
                          <h2 className={space_grotesk.className + " text-2xl px-4"}>About the Beat</h2><div style={{height: "315px"}} className="aspect-square bg-white/10 rounded-2xl" />
-                     </>
+                     </div>
                     }
+                    {beat.links.beatstars != undefined ?
+                    <div className="pt-8">
+                        <h2 className={space_grotesk.className + " text-2xl px-4"}>License it on beatstars</h2>
+                        <iframe src={"//www.beatstars.com/embed/track/?id=" + beat.beatstarsID} height="140" className="w-full rounded-2xl border border-black" style={{border: "none", background: "#30243c"}}></iframe>
+                    </div> : null
+                }
                 </div>
                 <div className="px-8">
                     <h2 className={space_grotesk.className + " text-2xl px-4"}>More like this</h2>
+                    <div className="flex flex-row flex-wrap gap-4 justify-between" style={{gridTemplateColumns: "repeat(auto-fill, 128px)"}}>
+                        { beatsLikeThis.map((beat) => {
+                            let name = (beat.name.substring(0, 10));
+                            if (beat.name !== name && beat.name.length >= 13 ) {
+                                name += "...";
+                            } else {
+                                name = beat.name;
+                            }
+
+                            return (
+                                <>
+                                    <Link href={ encodeURI(beat.url) } className="flex flex-col justify-center items-center content-center group col-span-1">
+                                        <div className="a h-32 w-32 bg-white/20 rounded-2xl"></div>
+                                        <span className={space_grotesk.className + " text-base transition-colors text-white/60 group-hover:text-white"}>{ name }</span>
+                                    </Link>
+                                    {beat == beatsLikeThis[beatsLikeThis.length - 1] ? <div className="mx-auto" /> : null}
+                                </>
+                            );
+                        }) }
+                    </div>
                 </div>
                 <Footer/>
             </main>
@@ -70,7 +91,8 @@ export default function BeatPage({ beat }) {
 
 export const getStaticProps = async ( params ) => {
 	const beat = await getBeats({ id: decodeURI(params.params.name) })[0];
-
+	const beatsLikeThis = await getBeats({ like: decodeURI(params.params.name) });
+    
     if (beat.links.youtube != undefined) {
         beat.youtubeID = beat.links.youtube.split("v=")[1];
     }
@@ -79,6 +101,6 @@ export const getStaticProps = async ( params ) => {
     }
 
 	return {
-		props: { beat: beat},
+		props: { beat: beat, beatsLikeThis: beatsLikeThis},
 	};
 };

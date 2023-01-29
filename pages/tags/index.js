@@ -25,12 +25,3 @@ export default function BeatPage({ _ }) {
         </>
     );
 }
-
-
-//export const getStaticProps = async ( _ ) => {
-	//const tags = await getTags();
-
-	//return {
-		//props: { tags: tags},
-	//};
-//};
