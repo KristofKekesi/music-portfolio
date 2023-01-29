@@ -43,7 +43,7 @@ export default function Home({ beats, mostPopularBeat, randomBeat }) {
 						<Featured className="col-span-4 w-full" title="Most Popular" beat={mostPopularBeat} type="popular" />
 						<RandomBeat className="col-span-8" beat={randomBeat} />
 						<div className="col-span-8">
-						<h2 className={space_grotesk.className + " text-2xl px-4"}>All Beats <span className="text-sm opacity-60">({beats.length})</span></h2>
+							<h2 className={space_grotesk.className + " text-2xl px-4"}>All Beats <span className="text-sm opacity-60">({beats.length})</span></h2>
 							<div className="flex flex-row flex-wrap gap-4 justify-between" style={{gridTemplateColumns: "repeat(auto-fill, 128px)"}}>
 								{ beats.map((beat) => {
 									let name = (beat.name.substring(0, 10));
@@ -54,15 +54,13 @@ export default function Home({ beats, mostPopularBeat, randomBeat }) {
 									}
 
 									return (
-										<>
-											<Link key={beat.id} href={ encodeURI(beat.url) } className="flex flex-col justify-center items-center content-center group col-span-1">
-												<div className="a h-32 w-32 bg-white/20 rounded-2xl"></div>
-												<span className={space_grotesk.className + " text-base transition-colors text-white/60 group-hover:text-white"}>{ name }</span>
-											</Link>
-											{beat == beats[beats.length - 1] ? <div key="last" className="mx-auto" /> : null}
-										</>
+										<Link key={beat.id} href={ encodeURI(beat.url) } className="flex flex-col justify-center items-center content-center group col-span-1">
+											<div className="a h-32 w-32 bg-white/20 rounded-2xl"></div>
+											<span className={space_grotesk.className + " text-base transition-colors text-white/60 group-hover:text-white"}>{ name }</span>
+										</Link>
 									);
 								}) }
+								<div key="last" className="mx-auto" />
 							</div>
 						</div>
 					</div>

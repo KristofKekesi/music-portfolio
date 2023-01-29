@@ -33,7 +33,7 @@ export default function Featured(props) {
         <div className={ props.className }>
             <h2 className={space_grotesk.className + " text-2xl px-4"}>{props.title}</h2>
             <div className="rounded-2xl bg-white/10 flex md:flex-row flex-col w-full">
-                <div className="h-96 w-96 aspect-square bg-white/10 rounded-2xl"></div>
+                <div className="aspect-square bg-white/10 rounded-2xl" style={{height: "315px"}}></div>
                     <div className="flex flex-col justify-between p-6 md:p-8 w-full">
                         <div className="flex flex-col">
                             <p className={space_grotesk.className + " pt-0 text-sm opacity-60"}>{ feature }</p>
