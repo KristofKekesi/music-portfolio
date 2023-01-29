@@ -2115,7 +2115,7 @@
         "release": "2021/02/21",
         "length": 141,
         "key": "f sharp major",
-        "bpm": 150,
+        "bpm": [150],
         "license": "free for non profit",
         "description": "snot x comethazine x wifisfuneral type beat",
         "cover": "dissect.jpg",

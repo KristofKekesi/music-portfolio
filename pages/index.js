@@ -1,18 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 
-import { texts } from "@/styles/texts";
-
-import { useEffect } from "react";
+import Navbar from "@/components/Navbar/Navbar";
 
 import { Space_Grotesk } from "@next/font/google";
 
-import { youtube, soundcloud, beatstars, server} from "@/config";
-
-import bg from "../public/bg.png";
-import filter from "../public/filter.svg";
-import right from "../public/right.svg";
+import bg from "../public/bg.svg";
 
 import Featured from "@/components/Featured/Featured";
 import RandomBeat from "@/components/RandomBeat/RandomBeat";
@@ -29,37 +22,7 @@ import getBeats from "@/functions/api/beats";
 
 const space_grotesk = Space_Grotesk({ subsets: ["latin"], weight: "700"});
 
-export default function Home({ beats, mostPopularBeat, randomBeat }) {
-	console.log(beats)
-	console.log(mostPopularBeat)
-	console.log(randomBeat)
-	useEffect(() => {
-		window.addEventListener("scroll", _ => {
-			const navItems = Array.from(document.getElementsByClassName("nav-item"));
-
-			if (document.getElementsByTagName("html")[0].getAttribute("selected") != "") {
-				if(document.getElementsByTagName("main")[0].getBoundingClientRect().top > -42) {
-					document.getElementById("header").classList.remove("border-b", "border-black", "bg-black/25", "backdrop-blur-xl");
-					document.getElementById("search-bar").classList.remove("translate-y-1/2", "bg-white/20");
-					document.getElementById("search-bar").classList.add("bg-white/10");
-
-					navItems.forEach(element => {
-						element.classList.remove("translate-y-1/4");
-					});
-				} else {
-					document.getElementById("header").classList.add("border-b", "border-black", "bg-black/25", "backdrop-blur-xl");
-					document.getElementById("search-bar").classList.add("translate-y-1/2");
-					document.getElementById("search-bar").classList.remove("bg-white/10");
-					document.getElementById("search-bar").classList.add("bg-white/20");
-
-					navItems.forEach(element => {
-						element.classList.add("translate-y-1/4");
-					});
-				}
-			}
-		});
-	}, []);
-	
+export default function Home({ beats, mostPopularBeat, randomBeat }) {	
 	return (
 		<>
 			<Head>
@@ -72,29 +35,15 @@ export default function Home({ beats, mostPopularBeat, randomBeat }) {
 			style={{
 				backgroundImage: `url(${bg.src})`,
 			}}>
-				<nav id="header" className="flex flex-row items-top justify-between w-full p-8 pt-4 pb-4 gap-8 fixed top-0 left-0 z-50">
-					<h1 className={space_grotesk.className + " " + texts.title}>
-						Jaki<span className={"a -ml-4 italic tracking-tighter text-white/50 inline-block"}>mixed</span>it
-					</h1>
-					<h1 className={space_grotesk.className + " text-xl transition-all nav-item"}>
-						<Link href={ youtube } className="hover:text-red-600 transition-colors">youtube</Link>
-					</h1>
-					<h1 className={space_grotesk.className + " text-xl transition-all nav-item"}>
-						<Link href={ soundcloud } className="hover:text-yellow-600 transition-colors">soundcloud</Link>
-					</h1>
-					<h1 className={space_grotesk.className + " text-xl transition-all nav-item"}>
-						<Link href={ beatstars } className="hover:text-red-600 transition-colors">beatstars</Link>
-					</h1>
-					<div id="search-bar" className={space_grotesk.className + " flex justify-center items-center gap-4 rounded-full border border-white h-8 px-4 bg-white/10 text-white/25 hover:text-white backdrop-blur-3xl transition-all"} >Search for beats...<Image alt="Filter" className="p-1" src={filter}></Image></div>
-				</nav>
+				<Navbar />
 				<div className="flex justify-center self-center pt-24">
-					<div className="flex flex-wrap p-8 gap-8">
-						<Featured title="Latest Drop" beat={beats[0]} type="latest" />
-						<Featured title="Most Popular" beat={mostPopularBeat} type="popular" />
-						<RandomBeat beat={randomBeat} />
-						<div>
+					<div className="grid grid-cols-8 p-8 gap-8">
+						<Featured className="col-span-4 w-full" title="Latest Drop" beat={beats[0]} type="latest" />
+						<Featured className="col-span-4 w-full" title="Most Popular" beat={mostPopularBeat} type="popular" />
+						<RandomBeat className="col-span-8" beat={randomBeat} />
+						<div className="col-span-8">
 						<h2 className={space_grotesk.className + " text-2xl px-4"}>All Beats <span className="text-sm opacity-60">({beats.length})</span></h2>
-							<div className="flex flex-wrap gap-2">
+							<div className="flex flex-row flex-wrap gap-4 justify-between" style={{gridTemplateColumns: "repeat(auto-fill, 128px)"}}>
 								{ beats.map((beat) => {
 									let name = (beat.name.substring(0, 10));
 									if (beat.name !== name && beat.name.length >= 13 ) {
@@ -104,18 +53,20 @@ export default function Home({ beats, mostPopularBeat, randomBeat }) {
 									}
 
 									return (
-										<Link key={beat.cover} href={ encodeURI(server + "/beats/" + beat.id) } className="flex flex-col justify-center items-center content-center group">
-											<div className="a h-32 w-32 bg-white/20 rounded-2xl"></div>
-											<span className={space_grotesk.className + " text-base transition-colors text-white/60 group-hover:text-white"}>{ name }</span>
-										</Link>
-									)
+										<>
+											<Link key={beat.cover} href={ encodeURI(beat.url) } className="flex flex-col justify-center items-center content-center group col-span-1">
+												<div className="a h-32 w-32 bg-white/20 rounded-2xl"></div>
+												<span className={space_grotesk.className + " text-base transition-colors text-white/60 group-hover:text-white"}>{ name }</span>
+											</Link>
+											{beat == beats[beats.length - 1] ? <div key="last" className="a mx-auto" /> : undefined}
+										</>
+									);
 								}) }
 							</div>
 						</div>
 					</div>
 				</div>
-				<iframe src="//www.beatstars.com/embed/track/?id=13392149" height="140" className="w-screen" style={{border: "none"}}></iframe>
-				<footer className="flex flex-row items-top justify-between items-center w-full p-8 pt-4 pb-4 gap-8 z-50 border-t border-black bg-black/25 backdrop-blur-xl">
+				<footer className="flex flex-row items-top justify-between items-center w-full p-8 pt-4 pb-4 gap-8 z-50 border-y border-black bg-black/25 backdrop-blur-xl">
 					<div className="flex flex-row items-top justify-start items-center gap-2">
 						<div className={ space_grotesk.className + " text-base text-white/60"}>Made by <Link href="https://www.kekesi.dev" className="text-white">Kristof Kekesi</Link> for</div>
 						<h1 className={space_grotesk.className + " text-2xl"}>
@@ -124,6 +75,7 @@ export default function Home({ beats, mostPopularBeat, randomBeat }) {
 					</div>
 					<div className={ space_grotesk.className + " text-base text-white/60"}>Copyright © 2023 Jakimixedit. All Rights Reserved.</div>
 				</footer>
+				<iframe src="//www.beatstars.com/embed/track/?id=13580069" height="140" className="w-screen px-3" style={{border: "none", background: "#30243c"}}></iframe>
 			</main>
 		</>
 	)
@@ -131,11 +83,15 @@ export default function Home({ beats, mostPopularBeat, randomBeat }) {
 
 
 export const getStaticProps = async ( _ ) => {
+	const beats = await getBeats(); 
+	const mostPopularBeat = await getBeats({ organise: "streams" }).reverse()[0];
+	const randomBeat = await getBeats().sort( () => .5 - Math.random() )[0];
+
 	return {
 		props: {
-			beats: await getBeats(undefined, undefined, undefined, undefined, undefined, undefined, undefined),
-			mostPopularBeat: await getBeats(undefined, undefined, undefined, undefined, undefined, undefined, "streams")[0],
-			randomBeat: await getBeats().sort( () => .5 - Math.random() )[0]
+			beats: beats,
+			mostPopularBeat: mostPopularBeat,
+			randomBeat: randomBeat
 		}
 	};
 };

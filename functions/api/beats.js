@@ -8,8 +8,7 @@ import { beats, server } from "@/config";
 //         \__) \__)
 
 
-export default function getBeats(bpm, name, release, key, license, tag, organise) {
-	// TODO(KristofKekesi): from till query parameters eg: bpm_from=100 bpm_till=110
+function organiseBeats(beats, organise) {
 	function dynamicSort(property) {
 		var sortOrder = 1;
 		if(property[0] === "-") {
@@ -23,64 +22,59 @@ export default function getBeats(bpm, name, release, key, license, tag, organise
 	}
 
 
-	beats.filter(beat => {
-			// organise values
-			beat.tags.sort();
-
-			// add computed values
-			beat.url = server + "/beats/" + beat.id;
-			beat.allStreams = 0;
-
-			// filters
-			if (beat.name != name && name != undefined) {
-				return;
-			}
-			if (beat.release != release && release != undefined) {
-				return;
-			}
-			if (beat.key != key && key != undefined) {
-				return;
-			}
-			if (beat.license != license && license != undefined) {
-				return;
-			}
-			if (beat.bpm != bpm && bpm != undefined) {
-				return;
-			}
-			if (!beat.tags.includes(tag) && tag != undefined) {
-				return;
-			}
-
-			return beat;
-		}
-	);
-
-
 	// organise
 	switch (organise) {
 		case "name": 
-			beats.sort(dynamicSort("name"));
-			break;
+			return beats.sort(dynamicSort("name"));
 		case "bpm": 
-			beats.sort(dynamicSort("bpm"));
-			break;
+			return beats.sort(dynamicSort("maxBPM"));
 		case "release": 
-			beats.sort(dynamicSort("release"));
-			break;
+			return beats.sort(dynamicSort("release"));
 		case "key": 
-			beats.sort(dynamicSort("key"));
-			break;
+			return beats.sort(dynamicSort("key"));
 		case "streams": 
-			beats.sort(dynamicSort("allStreams"));
-			break;
-		default:
-			beats.sort(dynamicSort("release"));
-			break;
+			return beats.sort(dynamicSort("allStreams"));
+		default: return beats.sort(dynamicSort("release")).reverse();
 	}
-
-	// ascending
-	beats.reverse()
+}
 
 
-	return beats;
+export default function getBeats({id = undefined, bpm = undefined, name = undefined, release = undefined, key = undefined, tag = undefined, license = undefined, organise = undefined} = {}) {
+	// TODO(KristofKekesi): from till query parameters eg: bpm_from=100 bpm_till=110
+	// TODO(KristofKekesi): exclude beats
+	return organiseBeats(beats.filter(beat => {
+		// organise values
+		beat.tags.sort();
+
+		// add computed values
+		beat.url = server + "/beats/" + beat.id;
+		beat.allStreams = beat.streams.youtube + beat.streams.beatstars;
+		beat.maxBPM = Math.max.apply(Math, beat.bpm);
+		beat.minBPM = Math.min.apply(Math, beat.bpm);
+
+		// filters
+		if (beat.id != id && id != undefined) {
+			return;
+		}
+		if (beat.name != name && name != undefined) {
+			return;
+		}
+		if (beat.release != release && release != undefined) {
+			return;
+		}
+		if (beat.key != key && key != undefined) {
+			return;
+		}
+		if (beat.license != license && license != undefined) {
+			return;
+		}
+		if (beat.bpm != bpm && bpm != undefined) {
+			return;
+		}
+		if (!beat.tags.includes(tag) && tag != undefined) {
+			return;
+		}
+
+		return beat;
+	}), organise);
 }
