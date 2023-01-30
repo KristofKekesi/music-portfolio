@@ -39,8 +39,8 @@ export default function Home({ beats, mostPopularBeat, randomBeat }) {
 				<Navbar />
 				<div className="flex justify-center self-center pt-24">
 					<div className="grid grid-cols-8 p-8 gap-8">
-						<Featured className="col-span-4 w-full" title="Latest Drop" beat={beats[0]} type="latest" />
-						<Featured className="col-span-4 w-full" title="Most Popular" beat={mostPopularBeat} type="popular" />
+						<Featured className="xl:col-span-4 col-span-8 w-full" title="Latest Drop" beat={beats[0]} type="latest" />
+						<Featured className="xl:col-span-4 col-span-8 w-full" title="Most Popular" beat={mostPopularBeat} type="popular" />
 						<RandomBeat className="col-span-8" beat={randomBeat} />
 						<div className="col-span-8">
 							<h2 className={space_grotesk.className + " text-2xl px-4"}>All Beats <span className="text-sm opacity-60">({beats.length})</span></h2>

@@ -41,7 +41,7 @@ export default function Featured(props) {
                             <p className={space_grotesk.className}><span className="text-2xl">{ props.beat.bpm.join(", ") }</span><span className="opacity-60">bpm</span></p>
                             <p className={space_grotesk.className}><span className="text-2xl">{ letter }</span><span className="opacity-60"> { key }</span></p>
                         </div>
-                        <p className={space_grotesk.className + " opacity-60 text-justify"}>{ props.beat.description }</p>
+                        <p className={space_grotesk.className + " opacity-60 text-justify hidden xl:block"}>{ props.beat.description }</p>
                     </div>
                     <Link href={ encodeURI(props.beat.url) } className={space_grotesk.className + " text-2xl flex justify-end items-center"}>More<Image alt="More" className="p-1 w-12 h-12" src={right}></Image></Link>
                 </div>

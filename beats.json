@@ -1,5 +1,23 @@
 [
     {
+        "id": "out-of-mind",
+        "name": "out of mind",
+        "release": "2023/01/30",
+        "length": 126,
+        "key": "a sharp minor",
+        "bpm": [140],
+        "license": "free for non profit",
+        "description": "hardrock x lunchbox x amir.pr0d type beat",
+        "cover": "out-of-mind.jpg",
+        "tags": ["hardrock", "lunchbox", "newjazz"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=t-w3vPGKNNY"
+        },
+        "streams": {
+            "youtube": 9,
+            "beatstars": 0
+        }
+    },{
         "id": "remember",
         "name": "remember",
         "release": "2023/01/24",

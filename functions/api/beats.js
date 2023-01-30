@@ -63,9 +63,14 @@ function organiseBeats(beats, organise, exclude, limit) {
 	return beats;
 }
 
-
-export default function getBeats({id = undefined, bpm = undefined, name = undefined, release = undefined, key = undefined, tag = undefined, license = undefined, organise = undefined, exclude = undefined, limit = undefined} = {}) {
-	// TODO(KristofKekesi): from till query parameters eg: bpm_from=100 bpm_till=110
+// TODO(KristofKekesi): from till query parameters
+export default function getBeats({
+	// equal
+	id = undefined, bpm = undefined, name = undefined, release = undefined, key = undefined, tag = undefined, license = undefined, 
+	// ranges
+	bpm_from = undefined, bpm_till = undefined, release_from = undefined, release_till = undefined, key_from = undefined, key_till = undefined,
+	// selections and limits
+	organise = undefined, exclude = undefined, limit = undefined} = {}) {
 	return organiseBeats(beats.filter(beat => {
 		// organise values
 		beat.tags.sort();

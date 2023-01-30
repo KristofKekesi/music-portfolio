@@ -45,7 +45,7 @@ export default function Featured(props) {
                                 <p className={space_grotesk.className}><span className="text-2xl">{ props.beat.bpm.join(", ") }</span><span className="opacity-60">bpm</span></p>
                                 <p className={space_grotesk.className}><span className="text-2xl">{ letter }</span><span className="opacity-60"> { key }</span></p>
                             </div>
-                            <p className={space_grotesk.className + " opacity-60 text-justify"}>{ props.beat.description }</p>
+                            <p className={space_grotesk.className + " opacity-60 text-justify xl:hidden"}>{ props.beat.description }</p>
                             <div className="flex flex-wrap gap-x-4 pt-4">
                                 <p className={space_grotesk.className + " text-violet-600 hover:text-violet-400 transition-colors"}>#iayze</p>
                                 <p className={space_grotesk.className + " text-fuchsia-600 hover:text-fuchsia-400 transition-colors"}>#domcorleo</p>
