@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 
 import Footer from "@/components/Footer/Footer";
@@ -11,6 +10,7 @@ import secondsToDisplay from "@/functions/secondsToDisplay";
 import { Space_Grotesk } from "@next/font/google";
 
 import bg from "../../public/bg.svg";
+import Beat from "@/components/Beat/Beat";
 
 
 //    TURTLE - TEKI
@@ -95,18 +95,8 @@ export default function BeatPage({ beat, beatsLikeThis }) {
                     <h2 className={space_grotesk.className + " text-2xl px-4"}>More like this</h2>
                     <div className="flex flex-row flex-wrap gap-4 justify-between" style={{gridTemplateColumns: "repeat(auto-fill, 128px)"}}>
                         { beatsLikeThis.map((beat) => {
-                            let name = (beat.name.substring(0, 10));
-                            if (beat.name !== name && beat.name.length >= 13 ) {
-                                name += "...";
-                            } else {
-                                name = beat.name;
-                            }
-
                             return (
-                                <Link key={beat.id} href={ encodeURI(beat.url) } className="flex flex-col justify-center items-center content-center group col-span-1">
-                                    <div className="a h-32 w-32 bg-white/20 rounded-2xl"></div>
-                                    <span className={space_grotesk.className + " text-base transition-colors text-white/60 group-hover:text-white"}>{ name }</span>
-                                </Link>
+                                <Beat beat={beat} />
                             );
                         }) }
                         <div key="last" className="mx-auto" />

@@ -1,9 +1,8 @@
 import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
 
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import Beat from "@/components/Beat/Beat";
 
 import { Space_Grotesk } from "@next/font/google";
 
@@ -47,24 +46,8 @@ export default function Home({ beats, mostPopularBeat, randomBeat }) {
 							<h2 className={space_grotesk.className + " text-2xl px-4"}>All Beats <span className="text-sm opacity-60">({beats.length})</span></h2>
 							<div className="flex flex-row flex-wrap gap-4 justify-between" style={{gridTemplateColumns: "repeat(auto-fill, 128px)"}}>
 								{ beats.map((beat) => {
-									let name = (beat.name.substring(0, 10));
-									if (beat.name !== name && beat.name.length >= 13 ) {
-										name += "...";
-									} else {
-										name = beat.name;
-									}
-
 									return (
-										<Link key={ beat.id } href={ encodeURI(beat.url) } className="flex flex-col justify-center items-center content-center group col-span-1">
-											<div className="mt-2">
-												{beat.coverURL != undefined ? <>
-													<Image src={ beat.coverURL } width={128} height={128} alt={"Cover of " + beat.name} className="bg-white/20 rounded-2xl blur-md opacity-25 saturate-200" />
-													<Image src={ beat.coverURL } width={128} height={128} alt={"Cover of " + beat.name} className="bg-white/20 rounded-2xl -translate-y-full absolute opacity-100 -mt-2" />
-												</> : <div className="h-32 w-32 bg-white/20 -mt-2 mb-2" />
-												}
-											</div>
-											<span className={space_grotesk.className + " text-base transition-colors text-white/60 group-hover:text-white"}>{ name }</span>
-										</Link>
+										<Beat beat={beat} />
 									);
 								}) }
 								<div key="last" className="mx-auto" />
