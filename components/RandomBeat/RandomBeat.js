@@ -43,7 +43,7 @@ export default function Featured(props) {
                         </div>
                         <p className={space_grotesk.className + " opacity-60 text-justify hidden xl:block"}>{ props.beat.description }</p>
                     </div>
-                    <Link href={ encodeURI(props.beat.url) } className={space_grotesk.className + " text-2xl flex justify-end items-center"}>More<Image alt="More" className="p-1 w-12 h-12" src={right}></Image></Link>
+                    <Link href={ encodeURI(props.beat.url) } className={space_grotesk.className + " text-2xl flex justify-end items-center"}>More<Image alt="More" className="p-1 w-12 h-12" src={right} /></Link>
                 </div>
             </div>
         </div>

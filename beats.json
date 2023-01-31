@@ -26,7 +26,7 @@
         "bpm": [139],
         "license": "free for non profit",
         "description": "hardrock x lunchbox x cheromani type beat",
-        "cover": "remember.jpg",
+        "cover": "",
         "tags": ["cheromani", "lunchbox", "hardrock"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=FdnVlIJSqfg"
@@ -45,7 +45,7 @@
         "bpm": [140],
         "license": "free for non profit",
         "description": "lunchbox x cheromani x new jazz ype beat",
-        "cover": "hearthless.jpg",
+        "cover": "",
         "tags": ["cheromani", "newjazz", "hardrock", "lunchbox"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=m1d_kTc8BFg"
@@ -83,7 +83,7 @@
         "bpm": [120],
         "license": "free for non profit",
         "description": "iayze x dom corleo x destroy lonely type beat",
-        "cover": "darkness.jpg",
+        "cover": "",
         "tags": ["iayze", "domcorleo", "hardrock", "destroylonely"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=7pURGnAf8LU"
@@ -221,7 +221,7 @@
         "bpm": [143],
         "license": "free for non profit",
         "description": "dom corleo x ken carson x destroy lonely type beat",
-        "cover": "been-there.jpg",
+        "cover": "",
         "tags": ["domcorleo", "kencarson", "destroylonely"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13433023"
@@ -240,7 +240,7 @@
         "bpm": [142],
         "license": "free for non profit",
         "description": "lucki x kashdami x pluggnb type beat",
-        "cover": "zaza.jpg",
+        "cover": "",
         "tags": ["lucki", "kashdami", "pluggnb"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13411134"
@@ -259,7 +259,7 @@
         "bpm": [140],
         "license": "free for non profit",
         "description": "iayze x dom corleo x goonie type beat",
-        "cover": "plot.jpg",
+        "cover": "",
         "tags": ["iayze", "domcorleo", "hardrock", "goonie"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=iGOxWN8tzNQ",
@@ -279,7 +279,7 @@
         "bpm": [140],
         "license": "free for non profit",
         "description": "dom corleo x destroy lonely type beat",
-        "cover": "kurt.jpg",
+        "cover": "",
         "tags": ["hyperpop", "domcorleo", "destroylonely"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13392149"
@@ -298,7 +298,7 @@
         "bpm": [147],
         "license": "free for non profit",
         "description": "dom corleo x destroy lonely x bktherula type beat",
-        "cover": "airborne.jpg",
+        "cover": "",
         "tags": ["bktherula", "domcorleo", "destroylonely"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=CroORY20ItU",
@@ -477,7 +477,7 @@
         "bpm": [134],
         "license": "free for non profit",
         "description": "kankan x bnyx x yeat type beat",
-        "cover": "test.jpg",
+        "cover": "",
         "tags": ["kankan", "bnyx", "yeat"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13254198"
@@ -496,7 +496,7 @@
         "bpm": [117],
         "license": "free for non profit",
         "description": "kankan x synthetic x yeat type beat",
-        "cover": "patterns.jpg",
+        "cover": "",
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=y00aRABHKdE",
@@ -516,7 +516,7 @@
         "bpm": [131],
         "license": "free for non profit",
         "description": "playboi carti x sofaygo x bktherula  type beat",
-        "cover": "wejussmof.jpg",
+        "cover": "",
         "tags": ["playboicarti", "sofaygo", "bktherula"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13248737"
@@ -555,7 +555,7 @@
         "bpm": [134],
         "license": "free for non profit",
         "description": "kankan x kashdami x autumn! pluggnb type beat",
-        "cover": "pinkcup.jpg",
+        "cover": "",
         "tags": ["pluggnb", "kankan", "w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=tSSd2E4pIWs"
@@ -593,7 +593,7 @@
         "bpm": [150],
         "license": "free for non profit",
         "description": "kankan x slump6s x septembersrich x sgpwes type beat",
-        "cover": "whitearmor.jpg",
+        "cover": "",
         "tags": ["kankan", "w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=6vMJFKPX17M"
@@ -650,7 +650,7 @@
         "bpm": [147],
         "license": "free for non profit",
         "description": "destroy lonely x sofaygo x midwxst x trippie redd type beat",
-        "cover": "afterworld.jpg",
+        "cover": "",
         "tags": ["destroylonely", "sofaygo"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=zeF0Hn4xa5g"
@@ -707,7 +707,7 @@
         "bpm": [120],
         "license": "free for non profit",
         "description": "kashdami x summrs x tana x autumn! pluggnb type beat",
-        "cover": "lmk.jpg",
+        "cover": "",
         "tags": ["pluggnb", "kashdami"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=eSoDUyX-Y-o",
@@ -805,7 +805,7 @@
         "bpm": [145],
         "license": "free for non profit",
         "description": "kankan x slump6s x septembersrich x sgpwes type beat",
-        "cover": "wizzard.jpg",
+        "cover": "",
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=u3801pb7vj4"
@@ -824,7 +824,7 @@
         "bpm": [150],
         "license": "free for non profit",
         "description": "kankan x slump6s x septembersrich x sgpwes type beat",
-        "cover": "taxbracket.jpg",
+        "cover": "",
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=-oNXKj47Yjg"
@@ -843,7 +843,7 @@
         "bpm": [130],
         "license": "free for non profit",
         "description": "kankan x slump6s x septembersrich x sgpwes type beat",
-        "cover": "6-figures.jpg",
+        "cover": "",
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=-zzhoKfV30Y"
@@ -862,7 +862,7 @@
         "bpm": [159],
         "license": "free for non profit",
         "description": "kankan x slump6s x septembersrich x sgpwes type beat",
-        "cover": "crashdummy.jpg",
+        "cover": "",
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=uSKog4QQbMU"
@@ -900,7 +900,7 @@
         "bpm": [145],
         "license": "free for non profit",
         "description": "destroy lonely x ken carson x midwxst x trippie redd type beat",
-        "cover": "no-stylist.jpg",
+        "cover": "",
         "tags": ["destroylonely"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=8cIXKJGT8I0",
@@ -977,7 +977,7 @@
         "bpm": [155],
         "license": "free for non profit",
         "description": "kashdami x summrs x autumn! pluggnb type beat",
-        "cover": "wow.jpg",
+        "cover": "",
         "tags": ["pluggnb", "kashdami", "autumn"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=RUWmZGAG94E"
@@ -996,7 +996,7 @@
         "bpm": [140],
         "license": "free for non profit",
         "description": "kankan x slump6s x sgpwes x autumn! type beat",
-        "cover": "dissin.jpg",
+        "cover": "",
         "tags": ["slump6s", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=yC93W6A8fKg"
@@ -1015,7 +1015,7 @@
         "bpm": [150],
         "license": "free for non profit",
         "description": "trippie redd x ecco2k x ssgkobe x lil uzi vert hyperrage type beat",
-        "cover": "miss-the-rage.jpg",
+        "cover": "",
         "tags": ["hyperpop", "poppunk", "glitchcore"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=6VmDYf3SRBw"
@@ -1034,7 +1034,7 @@
         "bpm": [123],
         "license": "free for non profit",
         "description": "ecco2k x ssgkobe x lili uzi vert x trippie redd hyperpop type beat",
-        "cover": "oxy.jpg",
+        "cover": "",
         "tags": ["hyperpop", "poppunk", "glitchcore"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=65fplpCO18Q"

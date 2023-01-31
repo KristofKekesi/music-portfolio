@@ -28,12 +28,13 @@ export default function Featured(props) {
     let letter = key[0].toUpperCase();
     key.shift();
     key = key.join(" ");
+    console.log(props.beat.coverURL);
 
     return (
         <div className={ props.className }>
             <h2 className={space_grotesk.className + " text-2xl px-4"}>{props.title}</h2>
             <div className="rounded-2xl bg-white/10 flex md:flex-row flex-col w-full">
-                <div className="aspect-square bg-white/10 rounded-2xl" style={{height: "315px"}}></div>
+                <Image src={ props.beat.coverURL } alt={"cover of " + props.beat.name} className="aspect-square bg-white/10 rounded-2xl" height={315} width={315} />
                     <div className="flex flex-col justify-between p-6 md:p-8 w-full">
                         <div className="flex flex-col">
                             <p className={space_grotesk.className + " pt-0 text-sm opacity-60"}>{ feature }</p>
@@ -52,7 +53,7 @@ export default function Featured(props) {
                                 <p className={space_grotesk.className + " text-amber-600 hover:text-amber-400 transition-colors"}>#hardrock</p>
                             </div>
                         </div>
-                        <Link href={ encodeURI(props.beat.url) } className={space_grotesk.className + " text-right text-2xl flex justify-end items-center"}>More<Image alt="More" className="p-1 w-12 h-12" src={right}></Image></Link>
+                        <Link href={ encodeURI(props.beat.url) } className={space_grotesk.className + " text-right text-2xl flex justify-end items-center"}>More<Image alt="More" className="p-1 w-12 h-12" src={right} /></Link>
                     </div>
                 </div>
         </div>

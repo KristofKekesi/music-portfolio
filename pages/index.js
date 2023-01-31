@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
@@ -54,8 +55,14 @@ export default function Home({ beats, mostPopularBeat, randomBeat }) {
 									}
 
 									return (
-										<Link key={beat.id} href={ encodeURI(beat.url) } className="flex flex-col justify-center items-center content-center group col-span-1">
-											<div className="a h-32 w-32 bg-white/20 rounded-2xl"></div>
+										<Link key={ beat.id } href={ encodeURI(beat.url) } className="flex flex-col justify-center items-center content-center group col-span-1">
+											<div className="mt-2">
+												{beat.coverURL != undefined ? <>
+													<Image src={ beat.coverURL } width={128} height={128} alt={"Cover of " + beat.name} className="bg-white/20 rounded-2xl blur-md opacity-25 saturate-200" />
+													<Image src={ beat.coverURL } width={128} height={128} alt={"Cover of " + beat.name} className="bg-white/20 rounded-2xl -translate-y-full absolute opacity-100 -mt-2" />
+												</> : <div className="h-32 w-32 bg-white/20 -mt-2 mb-2" />
+												}
+											</div>
 											<span className={space_grotesk.className + " text-base transition-colors text-white/60 group-hover:text-white"}>{ name }</span>
 										</Link>
 									);

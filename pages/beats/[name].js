@@ -1,6 +1,8 @@
+import Link from "next/link";
+import Image from "next/image";
+
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
-import Link from "next/link";
 
 import { server } from "@/config";
 import getBeats from "@/functions/api/beats";
@@ -53,7 +55,8 @@ export default function BeatPage({ beat, beatsLikeThis }) {
                             <div className="pt-8">
                                 <h2 className={space_grotesk.className + " text-2xl px-4"}>About the Beat</h2>
                                 <div className="bg-white/10 rounded-2xl flex" style={{height: "315px"}}>
-                                {beat.links.youtube == undefined ? <div className="bg-white/10 aspect-square rounded-2xl" style={{height: "315px", width: "315px"}} /> : null}
+                                {beat.links.youtube == undefined ? 
+                                    beat.coverURL != undefined ? <Image src={ beat.coverURL } alt={"cover of " + beat.name} className="aspect-square bg-white/10 rounded-2xl" height={315} width={315} /> : <div className="bg-white/10 rounded-2xl aspect-square" style={{height: "315px", width: "315px"}} /> : null}
                                     <div className="flex flex-col p-6 md:p-8 w-full">
                                         <div className="flex flex-col">
                                             <p className={space_grotesk.className + " pt-0 text-sm opacity-60"}>{ beat.release }</p>

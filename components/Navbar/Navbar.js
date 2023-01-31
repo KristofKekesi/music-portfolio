@@ -62,7 +62,7 @@ export default function Navbar(props) {
             <h1 className={space_grotesk.className + " text-xl transition-all nav-item"}>
                 <Link href={ beatstars } className="hover:text-red-600 transition-colors">beatstars</Link>
             </h1>
-            <div id="search-bar" className={space_grotesk.className + " flex justify-center items-center gap-4 rounded-full border border-white h-8 px-4 bg-white/10 text-white/25 hover:text-white backdrop-blur-3xl transition-all"} >Search for beats...<Image alt="Filter" className="p-1" src={filter}></Image></div>
+            <div id="search-bar" className={space_grotesk.className + " flex justify-center items-center gap-4 rounded-full border border-white h-8 px-4 bg-white/10 text-white/25 hover:text-white backdrop-blur-3xl transition-all"} >Search for beats...<Image alt="Filter" className="p-1" src={filter} /></div>
         </nav>
     );
 }

@@ -63,6 +63,7 @@ function organiseBeats(beats, organise, exclude, limit) {
 	return beats;
 }
 
+// TODO(KristofKekesi): option to only output beats with a cover //DEV
 // TODO(KristofKekesi): from till query parameters
 export default function getBeats({
 	// equal
@@ -77,6 +78,8 @@ export default function getBeats({
 
 		// add computed values
 		beat.url = server + "/beats/" + beat.id;
+		if (beat.cover != "") {beat.coverURL = "/covers/" + beat.cover};
+		console.log((beat.coverURL))
 		beat.allStreams = beat.streams.youtube + beat.streams.beatstars;
 		beat.maxBPM = Math.max.apply(Math, beat.bpm);
 		beat.minBPM = Math.min.apply(Math, beat.bpm);
