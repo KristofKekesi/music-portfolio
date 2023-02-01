@@ -93,10 +93,10 @@ export default function BeatPage({ beat, beatsLikeThis }) {
                 </div>
                 <div className="px-8">
                     <h2 className={space_grotesk.className + " text-2xl px-4"}>More like this</h2>
-                    <div className="flex flex-row flex-wrap gap-4 justify-between" style={{gridTemplateColumns: "repeat(auto-fill, 128px)"}}>
+                    <div className="flex flex-row flex-wrap gap-4 justify-between">
                         { beatsLikeThis.map((beat) => {
                             return (
-                                <Beat beat={beat} />
+                                <Beat key={beat.id} beat={beat} />
                             );
                         }) }
                         <div key="last" className="mx-auto" />

@@ -19,6 +19,11 @@ export const beatstars = "https://www.beatstars.com/jakimixedit";
 const DEV_LOCALHOST = "http://localhost:3000";
 const DEV_PRODUCTION = "https://jakimixedit.vercel.app";
 
+//* API
+const DEV_SHOW_BEATS_WITHOUT_COVERS = true;
+
 // DO NOT TOUCH
-const dev = process.env.NODE_ENV !== "production";
-export const server = dev ? DEV_LOCALHOST : DEV_PRODUCTION;
+const isDev = process.env.NODE_ENV !== "production";
+export const server = isDev ? DEV_LOCALHOST : DEV_PRODUCTION;
+
+export const showBeatsWithoutCovers = isDev ? DEV_SHOW_BEATS_WITHOUT_COVERS : true;

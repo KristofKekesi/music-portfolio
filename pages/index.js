@@ -47,7 +47,7 @@ export default function Home({ beats, mostPopularBeat, randomBeat }) {
 							<div className="flex flex-row flex-wrap gap-4 justify-between" style={{gridTemplateColumns: "repeat(auto-fill, 128px)"}}>
 								{ beats.map((beat) => {
 									return (
-										<Beat beat={beat} />
+										<Beat key={beat.id} beat={beat} />
 									);
 								}) }
 								<div key="last" className="mx-auto" />
