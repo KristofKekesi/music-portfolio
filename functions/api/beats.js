@@ -83,6 +83,7 @@ export default function getBeats({
 		beat.minBPM = Math.min.apply(Math, beat.bpm);
 
 		// filters
+		// equal
 		if (!showBeatsWithoutCovers && beat.coverURL == undefined) {
 			return;
 		}
@@ -107,10 +108,17 @@ export default function getBeats({
 		if (!beat.tags.includes(tag) && tag != undefined) {
 			return;
 		}
-		if (beat.minBPM < bpm_from && beat.maxBPM < bpm_from) {
+		// ranges
+		if (beat.minBPM < bpm_from && beat.maxBPM < bpm_from && bpm_from != undefined) {
 			return;
 		}
-		if (beat.minBPM > bpm_till && beat.maxBPM > bpm_till) {
+		if (beat.minBPM > bpm_till && beat.maxBPM > bpm_till && bpm_till != undefined) {
+			return;
+		}
+		if (beat.release < release_from && release_from != undefined) {
+			return;
+		}
+		if (beat.release > release_till && release_till != undefined) {
 			return;
 		}
 

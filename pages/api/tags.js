@@ -1,4 +1,5 @@
 import { beats } from "@/config";
+import getTags from "@/functions/api/tags";
 
 
 //    TURTLE - TEKI
@@ -14,10 +15,7 @@ export default function handler(req, res) {
     method,
   } = req;
 
-  const tags = [];
-  beats.forEach((beat) => {
-      beat.tags.forEach((tag) => {if (!tags.includes(tag)){ tags.push(tag) }})
-  })
-
-  res.status(200).json(tags);
+  res.status(200).json(
+    getTags()
+  );
 }
