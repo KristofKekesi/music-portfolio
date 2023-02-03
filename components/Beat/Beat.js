@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { Space_Grotesk } from "@next/font/google";
-
 
 //    TURTLE - TEKI
 //    (°-°) _______
@@ -10,8 +8,6 @@ import { Space_Grotesk } from "@next/font/google";
 //       \_  ___  ___>
 //         \__) \__)
 
-
-const space_grotesk = Space_Grotesk({ subsets: ["latin"], weight: "700"});
 
 export default function Beat(props) {
     // PROPS
@@ -32,7 +28,7 @@ export default function Beat(props) {
                 </> : <div className="h-32 w-32 bg-white/20 -mt-2 mb-2 rounded-2xl" />
                 }
             </div>
-            <span className={space_grotesk.className + " text-base transition-colors text-white/60 group-hover:text-white"}>{ name }</span>
+            <span className={"text-base transition-colors text-white/60 font-spaceGrotesk group-hover:text-white"}>{ name }</span>
         </Link>
     );
 }

@@ -4,8 +4,6 @@ import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import Beat from "@/components/Beat/Beat";
 
-import { Space_Grotesk } from "@next/font/google";
-
 import bg from "../public/bg.svg";
 
 import Featured from "@/components/Featured/Featured";
@@ -21,7 +19,6 @@ import getBeats from "@/functions/api/beats";
 //         \__) \__)
 
 
-const space_grotesk = Space_Grotesk({ subsets: ["latin"], weight: "700"});
 
 export default function Home({ beats, mostPopularBeat, randomBeat }) {	
 	return (
@@ -43,7 +40,7 @@ export default function Home({ beats, mostPopularBeat, randomBeat }) {
 						<Featured className="xl:col-span-4 col-span-8 w-full" title="Most Popular" beat={mostPopularBeat} type="popular" />
 						<RandomBeat className="col-span-8" beat={randomBeat} />
 						<div className="col-span-8">
-							<h2 className={space_grotesk.className + " text-2xl px-4"}>All Beats <span className="text-sm opacity-60">({beats.length})</span></h2>
+							<h2 className="text-2xl px-4 font-spaceGrotesk">All Beats <span className="text-sm opacity-60">({beats.length})</span></h2>
 							<div className="flex flex-row flex-wrap gap-4 justify-between" style={{gridTemplateColumns: "repeat(auto-fill, 128px)"}}>
 								{ beats.map((beat) => {
 									return (
