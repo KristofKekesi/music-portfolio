@@ -14,5 +14,7 @@ export default function getTags() {
         beat.tags.forEach((tag) => {if (!tags.includes(tag)){ tags.push(tag) }})
     });
 
+    tags.sort();
+
     return tags;
 }

@@ -2,13 +2,14 @@ import Image from "next/image";
 
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
+import Beat from "@/components/Beat/Beat";
 
 import { server } from "@/config";
+
 import getBeats from "@/functions/api/beats";
 import secondsToDisplay from "@/functions/secondsToDisplay";
 
-import bg from "../../public/bg.svg";
-import Beat from "@/components/Beat/Beat";
+import bg from "@/public/bg.svg";
 
 
 //    TURTLE - TEKI
@@ -41,11 +42,11 @@ export default function BeatPage({ beat, beatsLikeThis }) {
 
     return (
         <>
-            <Navbar />
             <main className="bg-cover bg-fixed min-h-screen flex flex-col gap-8 pt-24"
                 style={{
                     backgroundImage: `url(${bg.src})`,
                 }}>
+                <Navbar />
                 <div className="px-8">
                     <div className="flex gap-8 justify-between">
                             <div className="pt-8">
@@ -98,7 +99,7 @@ export default function BeatPage({ beat, beatsLikeThis }) {
                         <div key="last" className="mx-auto" />
                     </div>
                 </div>
-                <Footer/>
+                <Footer className="z-30" />
             </main>
         </>
     );

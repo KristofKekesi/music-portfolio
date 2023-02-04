@@ -1,9 +1,10 @@
 import Navbar from "@/components/Navbar/Navbar";
 
 import { server } from "@/config";
-import getBeats from "@/functions/api/beats";
 
-import bg from "../../public/bg.svg";
+import getTags from "@/functions/api/tags";
+
+import bg from "@/public/bg.svg";
 
 
 //    TURTLE - TEKI

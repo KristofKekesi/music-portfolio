@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import right from "../../public/right.svg";
+import right from "@/public/right.svg";
 
 import secondsToDisplay from "@/functions/secondsToDisplay";
 

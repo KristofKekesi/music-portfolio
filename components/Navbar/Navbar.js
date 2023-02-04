@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { youtube, soundcloud, beatstars, server } from "@/config";
-import filter from "../../public/filter.svg";
-import close from "../../public/close.svg";
+import filter from "@/public/filter.svg";
+import close from "@/public/close.svg";
 
 import { useEffect } from "react";
-import SearchPane from "../SearchPane/SearchPane";
+import SearchPane from "@/Components/SearchPane/SearchPane";
 
 
 //    TURTLE - TEKI
@@ -62,8 +62,8 @@ export default function Navbar(props) {
 				<h1 className="font-spaceGrotesk text-xl transition-all nav-item">
 					<Link href={ beatstars } className="hover:text-red-600 transition-colors">beatstars</Link>
 				</h1>
-				<div id="search-bar" className="font-spaceGrotesk flex justify-center right-0 items-center pr-4 rounded-full border border-white h-8 bg-white/10 backdrop-blur-3xl transition-all z-50">
-				<input type="text" id="search-input" name="search-input" placeholder="Search for beats..." className="bg-transparent active:text-white text-white/25 hover:text-white focus:text-white px-4 rounded-l-full h-8 transition-colors" />
+				<div id="search-bar" className="font-spaceGrotesk flex justify-center right-0 items-center pr-4 rounded-full border border-white h-8 bg-white/10 backdrop-blur-3xl transition-all z-50 w-56 hover:w-96" style={{}}>
+				<input type="text" id="search-input" name="search-input" placeholder="Search for beats..." className="bg-transparent active:text-white text-white/25 hover:text-white focus:text-white px-4 rounded-l-full h-8 transition-colors w-full" />
 				<Image alt="Filter" className="p-1" src={close} /></div>
 			</nav>
 		</>
