@@ -1,12 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import SearchPane from "@/components/SearchPane/SearchPane";
+
 import { youtube, soundcloud, beatstars, server } from "@/config";
+
 import filter from "@/public/filter.svg";
 import close from "@/public/close.svg";
 
 import { useEffect } from "react";
-import SearchPane from "@/Components/SearchPane/SearchPane";
 
 
 //    TURTLE - TEKI
