@@ -1,5 +1,23 @@
 [
     {
+        "id": "its-ok",
+        "name": "its ok!",
+        "release": "2023/02/09",
+        "length": 144,
+        "key": "f minor",
+        "bpm": [136],
+        "license": "free for non profit",
+        "description": "destroy lonely x dom corleo x amir.pr0d type beat",
+        "cover": "",
+        "tags": ["hardrock", "lunchbox", "amirpr0d"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=nd7yc2UaIIM"
+        },
+        "streams": {
+            "youtube": 14,
+            "beatstars": 0
+        }
+    }, {
         "id": "path",
         "name": "path",
         "release": "2023/02/06",
@@ -33,7 +51,7 @@
             "youtube": "https://www.youtube.com/watch?v=t-w3vPGKNNY"
         },
         "streams": {
-            "youtube": 9,
+            "youtube": 45,
             "beatstars": 0
         }
     },{

@@ -131,7 +131,7 @@ export default function Navbar(props) {
 				</h1>
 				<div id="search-bar" className="font-spaceGrotesk flex justify-center right-0 items-center pr-4 rounded-full border border-white h-8 bg-white/10 backdrop-blur-3xl transition-all z-50 w-56">
 					<input type="text" id="search-input" name="search-input" placeholder="Search for beats..." className="bg-transparent active:text-white text-white/25 hover:text-white focus:text-white px-4 rounded-l-full h-8 transition-colors w-full" />
-					<button onClick={closeSearchPane}>
+					<button onClick={ closeSearchPane }>
 						<Image id="search-bar-action-icon" alt="Filter" className="p-1" src={ filter } />
 					</button>
 				</div>
