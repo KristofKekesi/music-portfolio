@@ -1,4 +1,4 @@
-import beatsJSON from "./beats.json" assert {type: 'json'};
+import beatsJSON from "./test.json" assert {type: 'json'};
 
 
 //    TURTLE - TEKI

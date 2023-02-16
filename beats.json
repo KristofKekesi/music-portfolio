@@ -1,5 +1,26 @@
 [
     {
+        "id": "pearlescent",
+        "name": "pearlescent",
+        "release": "2023/02/13",
+        "length": 144,
+        "key": "b minor",
+        "bpm": [128],
+        "license": "free for non profit",
+        "description": "lunchbox x amir.pr0d x new jazz type beat",
+        "cover": "",
+        "tags": ["newjazz", "lunchbox", "amirpr0d"],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=CrV3AY1Qgl0"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": "",
+            "likeCount": "",
+            "comments": {}
+        }
+    },
+    {
         "id": "its-ok",
         "name": "its ok!",
         "release": "2023/02/09",
@@ -13,10 +34,14 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=nd7yc2UaIIM"
         },
-        "streams": {
-            "beatstars": 0
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": "",
+            "likeCount": "",
+            "comments": {}
         }
-    }, {
+    },
+    {
         "id": "path",
         "name": "path",
         "release": "2023/02/06",
@@ -29,9 +54,6 @@
         "tags": ["hardrock", "lunchbox", "newjazz"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=ENKtmj5ea6E"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -47,11 +69,9 @@
         "tags": ["hardrock", "lunchbox", "newjazz"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=t-w3vPGKNNY"
-        },
-        "streams": {
-            "beatstars": 0
         }
-    },{
+    },
+    {
         "id": "remember",
         "name": "remember",
         "release": "2023/01/24",
@@ -64,9 +84,6 @@
         "tags": ["cheromani", "lunchbox", "hardrock"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=FdnVlIJSqfg"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -82,9 +99,6 @@
         "tags": ["cheromani", "newjazz", "hardrock", "lunchbox"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=m1d_kTc8BFg"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -100,9 +114,6 @@
         "tags": ["iayze", "domcorleo", "hardrock", "goonie"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=rArpyqWIBA0"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -118,9 +129,6 @@
         "tags": ["iayze", "domcorleo", "hardrock", "destroylonely"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=7pURGnAf8LU"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -137,9 +145,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=XihQtsd3Hv8",
             "beatstars": "https://www.beatstars.com/TK13619560"
-        },
-        "streams": {
-            "beatstars": 3
         }
     },
     {
@@ -156,9 +161,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=dbNpUCeH06A",
             "beatstars": "https://www.beatstars.com/TK13605277"
-        },
-        "streams": {
-            "beatstars": 4
         }
     },
     {
@@ -175,9 +177,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=I6uL7DMabPU",
             "beatstars": "https://www.beatstars.com/TK13580069"
-        },
-        "streams": {
-            "beatstars": 5
         }
     },
     {
@@ -194,9 +193,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=BcT8Qb6lHqc",
             "beatstars": "https://www.beatstars.com/TK13539406"
-        },
-        "streams": {
-            "beatstars": 10
         }
     },
     {
@@ -212,9 +208,6 @@
         "tags": ["iayze", "domcorleo", "hardrock", "destroylonely"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=7uUPdnu6bDw"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -231,9 +224,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=KkIreonNkqs",
             "beatstars": "https://www.beatstars.com/TK13483049"
-        },
-        "streams": {
-            "beatstars": 15
         }
     },
     {
@@ -249,9 +239,6 @@
         "tags": ["domcorleo", "kencarson", "destroylonely"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13433023"
-        },
-        "streams": {
-            "beatstars": 6
         }
     },
     {
@@ -267,9 +254,6 @@
         "tags": ["lucki", "kashdami", "pluggnb"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13411134"
-        },
-        "streams": {
-            "beatstars": 5
         }
     },
     {
@@ -286,9 +270,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=iGOxWN8tzNQ",
             "beatstars": "https://www.beatstars.com/TK13385279"
-        },
-        "streams": {
-            "beatstars": 5
         }
     },
     {
@@ -304,9 +285,6 @@
         "tags": ["hyperpop", "domcorleo", "destroylonely"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13392149"
-        },
-        "streams": {
-            "beatstars": 7
         }
     },
     {
@@ -323,9 +301,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=CroORY20ItU",
             "beatstars": "https://www.beatstars.com/TK13372421"
-        },
-        "streams": {
-            "beatstars": 12
         }
     },
     {
@@ -342,9 +317,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=SOIbrwvdDuE",
             "beatstars": "https://www.beatstars.com/TK13358226"
-        },
-        "streams": {
-            "beatstars": 4
         }
     },
     {
@@ -361,9 +333,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=3fjbk0K4S3M",
             "beatstars": "https://www.beatstars.com/TK13350149"
-        },
-        "streams": {
-            "beatstars": 24
         }
     },
     {
@@ -380,9 +349,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=Yf3yLMVSrx4",
             "beatstars": "https://www.beatstars.com/TK13331424"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -399,9 +365,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=X8kZzFQwCpE",
             "beatstars": "https://www.beatstars.com/TK13350149"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -418,9 +381,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=P9u7oki12l8",
             "beatstars": "https://www.beatstars.com/TK13324434"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -437,9 +397,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=zkTdlYqXouw",
             "beatstars": "https://www.beatstars.com/TK13322903"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -455,9 +412,6 @@
         "tags": ["kankan", "yeat", "w2g"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13266849"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -474,9 +428,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=12DgI2H0kvs",
             "beatstars": "https://www.beatstars.com/TK13266170"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -492,9 +443,6 @@
         "tags": ["kankan", "bnyx", "yeat"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13254198"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -511,9 +459,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=y00aRABHKdE",
             "beatstars": "https://www.beatstars.com/TK13257771"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -529,9 +474,6 @@
         "tags": ["playboicarti", "sofaygo", "bktherula"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13248737"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -548,9 +490,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=CmEpErKDfFM",
             "beatstars": "https://www.beatstars.com/TK13224492"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -566,9 +505,6 @@
         "tags": ["pluggnb", "kankan", "w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=tSSd2E4pIWs"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -584,9 +520,6 @@
         "tags": ["kankan", "w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=B_GoKT3rvyc"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -602,9 +535,6 @@
         "tags": ["kankan", "w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=6vMJFKPX17M"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -620,9 +550,6 @@
         "tags": ["autumn", "kankan", "rr"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=L19e48BYKsw"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -638,9 +565,6 @@
         "tags": ["autumn", "kankan", "rr"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=6Q9ClJU0sDQ"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -656,9 +580,6 @@
         "tags": ["destroylonely", "sofaygo"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=zeF0Hn4xa5g"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -674,9 +595,6 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=tGoi353zxME"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -692,9 +610,6 @@
         "tags": ["pluggnb", "kashdami"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=B0Lzy1uRmhc"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -711,9 +626,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=eSoDUyX-Y-o",
             "beatstars": "https://www.beatstars.com/TK13226759"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -730,9 +642,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=rajqRlf57xY",
             "beatstars": "https://www.beatstars.com/TK13304038"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -748,9 +657,6 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=0nihiWCLhag"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -766,9 +672,6 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=DiqjS-ILvgo"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -785,9 +688,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=HBRuJwd0__I",
             "beatstars": "https://www.beatstars.com/TK13257539"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -803,9 +703,6 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=u3801pb7vj4"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -821,9 +718,6 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=-oNXKj47Yjg"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -839,9 +733,6 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=-zzhoKfV30Y"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -857,9 +748,6 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=uSKog4QQbMU"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -875,9 +763,6 @@
         "tags": ["kashdami", "pluggnb"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=zC7TxVHlnJ8"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -894,9 +779,6 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=8cIXKJGT8I0",
             "beatstars": "https://www.beatstars.com/TK13257302"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -912,9 +794,6 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=oEYTW8ISsV0"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -930,9 +809,6 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=ZjqQ0dDzoBc"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -948,9 +824,6 @@
         "tags": ["kankan", "rr"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=DVDMsAJry7A"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -966,9 +839,6 @@
         "tags": ["pluggnb", "kashdami", "autumn"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=RUWmZGAG94E"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -984,9 +854,6 @@
         "tags": ["slump6s", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=yC93W6A8fKg"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1002,9 +869,6 @@
         "tags": ["hyperpop", "poppunk", "glitchcore"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=6VmDYf3SRBw"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1020,9 +884,6 @@
         "tags": ["hyperpop", "poppunk", "glitchcore"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=65fplpCO18Q"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1038,9 +899,6 @@
         "tags": ["kankan", "synthetic"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=Cr-BPe4D1B8"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1056,9 +914,6 @@
         "tags": ["kashdami", "pluggnb", "tana"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=e_EeUnidRfs"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1074,9 +929,6 @@
         "tags": ["slump6s", "sqpwes"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=JV85ZzsUBqc"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1092,9 +944,6 @@
         "tags": ["kankan", "synthetic"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=AOV9HXpuuFw"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1110,9 +959,6 @@
         "tags": ["sofaygo", "pluggnb", "babysantana"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=032iw5BRggA"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1128,9 +974,6 @@
         "tags": ["kashdami", "pluggnb", "autumn"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=svYAVp_fA7E"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1146,9 +989,6 @@
         "tags": ["pluggnb", "kankan", "autumn"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=EwYH47_oiUY"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1164,9 +1004,6 @@
         "tags": ["gunna", "lilbaby"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=Cwbusk4_b9I"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1182,9 +1019,6 @@
         "tags": ["yeat", "tonka", "dirtysprite"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=CW-wmjgVy0Q"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1200,9 +1034,6 @@
         "tags": ["kashdami", "babysantana"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=NiQJ_Fu0fNg"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1218,9 +1049,6 @@
         "tags": ["kashdami", "babysantana"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=umRlelonufk"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1236,9 +1064,6 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=b-11g2CTn88"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1254,9 +1079,6 @@
         "tags": ["dontoliver", "internetmoney", "drokenji"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=jgxO4jSsIa0"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1272,9 +1094,6 @@
         "tags": ["kashdami", "babysantana", "ephipany"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=Oz8T8M5Ajl4"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1290,9 +1109,6 @@
         "tags": ["kankan", "pluggnb", "autumn"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=hvyAEXO1C0Y"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1308,9 +1124,6 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=S8FyyrtbPKU"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1326,9 +1139,6 @@
         "tags": ["kashdami", "pluggnb", "domcorleo"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=_SW3xkCFLQ0"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1344,9 +1154,6 @@
         "tags": ["census", "internetmoney", "drokenji"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=yxN49WJuIYA"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1362,9 +1169,6 @@
         "tags": ["kashdami", "kankan", "autumn"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=BJltK-WxRiI"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1380,9 +1184,6 @@
         "tags": ["kashdami", "pluggnb", "domcorleo"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=KBzJrfOMMTs"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1398,9 +1199,6 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=2AqnQeCJ3zY"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1416,9 +1214,6 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=W_L0jDQYU_w"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1434,9 +1229,6 @@
         "tags": ["yeat", "trippieredd", "internetmoney"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=LAhJyeJA7Fk"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1452,9 +1244,6 @@
         "tags": ["draingang", "bladee", "ecco2k"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=Edqbk4M5pYQ"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1470,9 +1259,6 @@
         "tags": ["gunna", "lilbaby", "pushinp"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=RQn6eCuF2MU"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1488,9 +1274,6 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=xVSMYBh6LHw"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1506,9 +1289,6 @@
         "tags": ["internetmoney", "nickmira", "drokenji", "rioleyva"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=eM4wthHD7OU"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1524,9 +1304,6 @@
         "tags": ["yeat", "trippieredd", "1rafmade"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=b7zHvRfFZyE"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1542,9 +1319,6 @@
         "tags": ["internetmoney"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=ZtAhociuqLw"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1560,9 +1334,6 @@
         "tags": ["kashdami", "ssgkobe"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=8jJShXyfbZw"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1578,9 +1349,6 @@
         "tags": ["trippieredd", "internetmoney"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=mCZw3zX0ojM"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1596,9 +1364,6 @@
         "tags": ["yeat", "dirtysprite"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=ozO6M3PYAbg"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1614,9 +1379,6 @@
         "tags": ["kashdami", "ssgkobe", "babysantana"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=_ssjra2Tprw"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1632,9 +1394,6 @@
         "tags": ["babysantana", "ssgkobe"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=1Tq8PAN8eHw"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1650,9 +1409,6 @@
         "tags": ["grasa", "ibbigang"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=qgggwXmEH5g"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1668,9 +1424,6 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=acoaDvbR1QU"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1686,9 +1439,6 @@
         "tags": ["drokenji", "nickmira"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=G4TWdonkCfs"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1704,9 +1454,6 @@
         "tags": ["yeat", "septembersrich", "dirtysprite"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=JHMRSSWdpwM"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1722,9 +1469,6 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=yThk4NtGWv8"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1740,9 +1484,6 @@
         "tags": ["yeat", "kankan", "dirtysprite"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=HqaLNb2auO8"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1758,9 +1499,6 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=4EZMrS4NQEY"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1776,9 +1514,6 @@
         "tags": ["internetmoney", "nickmira"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=fGfdhnLmQm8"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1794,9 +1529,6 @@
         "tags": ["drokenji", "nickmira"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=qaaWb8B-Lz4"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1812,9 +1544,6 @@
         "tags": ["kashdami", "trippieredd"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=hu_WvTukF_4"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1830,9 +1559,6 @@
         "tags": ["pierrebourne", "playboicarti"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=5UwAi028XFc"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1848,9 +1574,6 @@
         "tags": ["trippieredd", "wowy", "drokenji"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=nq1RlqrW8ss"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1866,9 +1589,6 @@
         "tags": ["sofaygo", "trippieredd"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=cclNdjkKSZ8"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1884,9 +1604,6 @@
         "tags": ["drokenji", "nickmira"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=MROyJC67eNk"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1902,9 +1619,6 @@
         "tags": ["trippieredd", "nickmira"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=3jpZEwO0i_k"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1920,9 +1634,6 @@
         "tags": ["snot", "etheral"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=v6FDc6x6DbA"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1938,9 +1649,6 @@
         "tags": ["internetmoney", "drokenji"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=kIOy7ilbpDQ"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1956,9 +1664,6 @@
         "tags": ["kashdami", "trippieredd"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=KLwChzOQ2kQ"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1974,9 +1679,6 @@
         "tags": ["kashdami", "playboicarti"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=u7XZDNZ262I"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -1992,9 +1694,6 @@
         "tags": ["isaiahrashad", "sainte"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=zNRUVKBSN4g"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -2010,9 +1709,6 @@
         "tags": ["misstherage", "trippieredd"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=T3suXLPCseA"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -2028,9 +1724,6 @@
         "tags": ["astroworld", "jackboys", "wondagurl"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=mDgcutmhxh8"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -2046,9 +1739,6 @@
         "tags": ["travisscott", "astroworld"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=K5wnRD4zwm0"
-        },
-        "streams": {
-            "beatstars": 0
         }
     },
     {
@@ -2064,9 +1754,6 @@
         "tags": ["comethazine", "snot"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=_I1G9rQq2-k"
-        },
-        "streams": {
-            "beatstars": 0
         }
     }
   ]
