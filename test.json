@@ -1,52 +1,99 @@
 [
-    {
-        "id": "its-ok",
-        "name": "its ok!",
-        "release": "2023/02/09",
-        "length": 144,
-        "key": "f minor",
-        "bpm": [136],
-        "license": "free for non profit",
-        "description": "destroy lonely x dom corleo x amir.pr0d type beat",
-        "cover": "",
-        "tags": ["hardrock", "lunchbox", "amirpr0d"],
-        "links": {
-            "youtube": "https://www.youtube.com/watch?v=nd7yc2UaIIM"
-        },
-        "youtube": {
-            "crawled": "2023-02-10",
-            "viewCount": "",
-            "likeCount": "",
-            "comments": {}
-        }
-    }, {
-        "id": "path",
-        "name": "path",
-        "release": "2023/02/06",
-        "length": 118,
-        "key": "a sharp minor",
-        "bpm": [129],
-        "license": "free for non profit",
-        "description": "hardrock x lunchbox x amir.pr0d type beat",
-        "cover": "",
-        "tags": ["hardrock", "lunchbox", "newjazz"],
-        "links": {
-            "youtube": "https://www.youtube.com/watch?v=ENKtmj5ea6E"
-        }
-    },
-    {
-        "id": "out-of-mind",
-        "name": "out of mind",
-        "release": "2023/01/30",
-        "length": 126,
-        "key": "a sharp minor",
-        "bpm": [140],
-        "license": "free for non profit",
-        "description": "hardrock x lunchbox x amir.pr0d type beat",
-        "cover": "out-of-mind.jpg",
-        "tags": ["hardrock", "lunchbox", "newjazz"],
-        "links": {
-            "youtube": "https://www.youtube.com/watch?v=t-w3vPGKNNY"
-        }
-    }
+	{
+		"id": "out-of-mind",
+		"name": "out of mind",
+		"release": "2023/01/30",
+		"length": 126,
+		"key": "a sharp minor",
+		"bpm": [
+			140
+		],
+		"license": "free for non profit",
+		"description": "hardrock x lunchbox x amir.pr0d type beat",
+		"cover": "out-of-mind.jpg",
+		"tags": [
+			"hardrock",
+			"lunchbox",
+			"newjazz"
+		],
+		"links": {
+			"youtube": "https://www.youtube.com/watch?v=t-w3vPGKNNY",
+			"url": "http://localhost:3000/beats/out-of-mind"
+		},
+		"youtube": {
+			"crawled": "2023-02-10",
+			"viewCount": null,
+			"likeCount": null,
+			"comments": {}
+		},
+		"url": "http://localhost:3000/beats/out-of-mind",
+		"coverURL": "/covers/out-of-mind.jpg",
+		"allStreams": 0,
+		"maxBPM": 140,
+		"minBPM": 140
+	},
+	{
+		"id": "path",
+		"name": "path",
+		"release": "2023/02/06",
+		"length": 118,
+		"key": "a sharp minor",
+		"bpm": [
+			129
+		],
+		"license": "free for non profit",
+		"description": "hardrock x lunchbox x amir.pr0d type beat",
+		"cover": "",
+		"tags": [
+			"hardrock",
+			"lunchbox",
+			"newjazz"
+		],
+		"links": {
+			"youtube": "https://www.youtube.com/watch?v=ENKtmj5ea6E",
+			"url": "http://localhost:3000/beats/path"
+		},
+		"youtube": {
+			"crawled": "2023-02-10",
+			"viewCount": "63",
+			"likeCount": "2",
+			"comments": {}
+		},
+		"url": "http://localhost:3000/beats/path",
+		"allStreams": 0,
+		"maxBPM": 129,
+		"minBPM": 129
+	},
+	{
+		"id": "its-ok",
+		"name": "its ok!",
+		"release": "2023/02/09",
+		"length": 144,
+		"key": "f minor",
+		"bpm": [
+			136
+		],
+		"license": "free for non profit",
+		"description": "destroy lonely x dom corleo x amir.pr0d type beat",
+		"cover": "",
+		"tags": [
+			"amirpr0d",
+			"hardrock",
+			"lunchbox"
+		],
+		"links": {
+			"youtube": "https://www.youtube.com/watch?v=nd7yc2UaIIM",
+			"url": "http://localhost:3000/beats/its-ok"
+		},
+		"youtube": {
+			"crawled": "2023-02-10",
+			"viewCount": "",
+			"likeCount": "",
+			"comments": {}
+		},
+		"url": "http://localhost:3000/beats/its-ok",
+		"allStreams": 0,
+		"maxBPM": 136,
+		"minBPM": 136
+	}
 ]

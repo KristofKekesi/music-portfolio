@@ -3,7 +3,6 @@ import Image from "next/image";
 import BeatResult from "../BeatResult/BeatResult";
 
 import edit from "@/public/edit.svg";
-import getBeats from "@/functions/api/beats";
 
 //    TURTLE - TEKI
 //    (°-°) _______
@@ -74,8 +73,10 @@ export default function SearchPane(_) {
             </div>
             <div className="p-8 pb-0 font-spaceGrotesk text-xl">Results</div>
             <div className="flex flex-col">
-                <BeatResult beat={getBeats()[0]} />
-                <BeatResult beat={getBeats()[1]} />
+                {
+                //<BeatResult beat={getBeats()[0]} />
+                //<BeatResult beat={getBeats()[1]} />
+                }
             </div>
         </div>
     );

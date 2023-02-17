@@ -15,8 +15,8 @@
         },
         "youtube": {
             "crawled": "2023-02-10",
-            "viewCount": "",
-            "likeCount": "",
+            "viewCount": null,
+            "likeCount": null,
             "comments": {}
         }
     },
@@ -36,8 +36,8 @@
         },
         "youtube": {
             "crawled": "2023-02-10",
-            "viewCount": "",
-            "likeCount": "",
+            "viewCount": null,
+            "likeCount": null,
             "comments": {}
         }
     },
@@ -54,6 +54,12 @@
         "tags": ["hardrock", "lunchbox", "newjazz"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=ENKtmj5ea6E"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -69,6 +75,12 @@
         "tags": ["hardrock", "lunchbox", "newjazz"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=t-w3vPGKNNY"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -84,6 +96,12 @@
         "tags": ["cheromani", "lunchbox", "hardrock"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=FdnVlIJSqfg"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -99,6 +117,12 @@
         "tags": ["cheromani", "newjazz", "hardrock", "lunchbox"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=m1d_kTc8BFg"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -114,6 +138,12 @@
         "tags": ["iayze", "domcorleo", "hardrock", "goonie"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=rArpyqWIBA0"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -129,6 +159,12 @@
         "tags": ["iayze", "domcorleo", "hardrock", "destroylonely"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=7pURGnAf8LU"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -145,6 +181,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=XihQtsd3Hv8",
             "beatstars": "https://www.beatstars.com/TK13619560"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -161,6 +203,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=dbNpUCeH06A",
             "beatstars": "https://www.beatstars.com/TK13605277"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -177,6 +225,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=I6uL7DMabPU",
             "beatstars": "https://www.beatstars.com/TK13580069"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -193,6 +247,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=BcT8Qb6lHqc",
             "beatstars": "https://www.beatstars.com/TK13539406"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -208,6 +268,12 @@
         "tags": ["iayze", "domcorleo", "hardrock", "destroylonely"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=7uUPdnu6bDw"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -224,6 +290,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=KkIreonNkqs",
             "beatstars": "https://www.beatstars.com/TK13483049"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -239,6 +311,12 @@
         "tags": ["domcorleo", "kencarson", "destroylonely"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13433023"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -254,6 +332,12 @@
         "tags": ["lucki", "kashdami", "pluggnb"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13411134"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -270,6 +354,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=iGOxWN8tzNQ",
             "beatstars": "https://www.beatstars.com/TK13385279"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -285,6 +375,12 @@
         "tags": ["hyperpop", "domcorleo", "destroylonely"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13392149"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -301,6 +397,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=CroORY20ItU",
             "beatstars": "https://www.beatstars.com/TK13372421"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -317,6 +419,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=SOIbrwvdDuE",
             "beatstars": "https://www.beatstars.com/TK13358226"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -333,6 +441,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=3fjbk0K4S3M",
             "beatstars": "https://www.beatstars.com/TK13350149"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -349,6 +463,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=Yf3yLMVSrx4",
             "beatstars": "https://www.beatstars.com/TK13331424"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -365,6 +485,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=X8kZzFQwCpE",
             "beatstars": "https://www.beatstars.com/TK13350149"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -381,6 +507,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=P9u7oki12l8",
             "beatstars": "https://www.beatstars.com/TK13324434"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -397,6 +529,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=zkTdlYqXouw",
             "beatstars": "https://www.beatstars.com/TK13322903"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -412,6 +550,12 @@
         "tags": ["kankan", "yeat", "w2g"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13266849"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -428,6 +572,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=12DgI2H0kvs",
             "beatstars": "https://www.beatstars.com/TK13266170"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -443,6 +593,12 @@
         "tags": ["kankan", "bnyx", "yeat"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13254198"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -459,6 +615,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=y00aRABHKdE",
             "beatstars": "https://www.beatstars.com/TK13257771"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -474,6 +636,12 @@
         "tags": ["playboicarti", "sofaygo", "bktherula"],
         "links": {
             "beatstars": "https://www.beatstars.com/TK13248737"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -490,6 +658,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=CmEpErKDfFM",
             "beatstars": "https://www.beatstars.com/TK13224492"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -505,6 +679,12 @@
         "tags": ["pluggnb", "kankan", "w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=tSSd2E4pIWs"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -520,6 +700,12 @@
         "tags": ["kankan", "w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=B_GoKT3rvyc"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -535,6 +721,12 @@
         "tags": ["kankan", "w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=6vMJFKPX17M"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -550,6 +742,12 @@
         "tags": ["autumn", "kankan", "rr"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=L19e48BYKsw"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -565,6 +763,12 @@
         "tags": ["autumn", "kankan", "rr"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=6Q9ClJU0sDQ"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -580,6 +784,12 @@
         "tags": ["destroylonely", "sofaygo"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=zeF0Hn4xa5g"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -595,6 +805,12 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=tGoi353zxME"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -610,6 +826,12 @@
         "tags": ["pluggnb", "kashdami"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=B0Lzy1uRmhc"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -626,6 +848,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=eSoDUyX-Y-o",
             "beatstars": "https://www.beatstars.com/TK13226759"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -642,6 +870,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=rajqRlf57xY",
             "beatstars": "https://www.beatstars.com/TK13304038"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -657,6 +891,12 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=0nihiWCLhag"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -672,6 +912,12 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=DiqjS-ILvgo"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -688,6 +934,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=HBRuJwd0__I",
             "beatstars": "https://www.beatstars.com/TK13257539"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -703,6 +955,12 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=u3801pb7vj4"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -718,6 +976,12 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=-oNXKj47Yjg"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -733,6 +997,12 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=-zzhoKfV30Y"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -748,6 +1018,12 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=uSKog4QQbMU"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -763,6 +1039,12 @@
         "tags": ["kashdami", "pluggnb"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=zC7TxVHlnJ8"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -779,6 +1061,12 @@
         "links": {
             "youtube": "https://www.youtube.com/watch?v=8cIXKJGT8I0",
             "beatstars": "https://www.beatstars.com/TK13257302"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -794,6 +1082,12 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=oEYTW8ISsV0"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -809,6 +1103,12 @@
         "tags": ["kankan", "b4w2g"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=ZjqQ0dDzoBc"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -824,6 +1124,12 @@
         "tags": ["kankan", "rr"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=DVDMsAJry7A"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -839,6 +1145,12 @@
         "tags": ["pluggnb", "kashdami", "autumn"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=RUWmZGAG94E"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -854,6 +1166,12 @@
         "tags": ["slump6s", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=yC93W6A8fKg"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -869,6 +1187,12 @@
         "tags": ["hyperpop", "poppunk", "glitchcore"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=6VmDYf3SRBw"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -884,6 +1208,12 @@
         "tags": ["hyperpop", "poppunk", "glitchcore"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=65fplpCO18Q"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -899,6 +1229,12 @@
         "tags": ["kankan", "synthetic"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=Cr-BPe4D1B8"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -914,6 +1250,12 @@
         "tags": ["kashdami", "pluggnb", "tana"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=e_EeUnidRfs"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -929,6 +1271,12 @@
         "tags": ["slump6s", "sqpwes"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=JV85ZzsUBqc"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -944,6 +1292,12 @@
         "tags": ["kankan", "synthetic"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=AOV9HXpuuFw"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -959,6 +1313,12 @@
         "tags": ["sofaygo", "pluggnb", "babysantana"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=032iw5BRggA"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -974,6 +1334,12 @@
         "tags": ["kashdami", "pluggnb", "autumn"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=svYAVp_fA7E"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -989,6 +1355,12 @@
         "tags": ["pluggnb", "kankan", "autumn"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=EwYH47_oiUY"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1004,6 +1376,12 @@
         "tags": ["gunna", "lilbaby"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=Cwbusk4_b9I"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1019,6 +1397,12 @@
         "tags": ["yeat", "tonka", "dirtysprite"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=CW-wmjgVy0Q"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1034,6 +1418,12 @@
         "tags": ["kashdami", "babysantana"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=NiQJ_Fu0fNg"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1049,6 +1439,12 @@
         "tags": ["kashdami", "babysantana"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=umRlelonufk"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1064,6 +1460,12 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=b-11g2CTn88"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1079,6 +1481,12 @@
         "tags": ["dontoliver", "internetmoney", "drokenji"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=jgxO4jSsIa0"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1094,6 +1502,12 @@
         "tags": ["kashdami", "babysantana", "ephipany"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=Oz8T8M5Ajl4"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1109,6 +1523,12 @@
         "tags": ["kankan", "pluggnb", "autumn"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=hvyAEXO1C0Y"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1124,6 +1544,12 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=S8FyyrtbPKU"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1139,6 +1565,12 @@
         "tags": ["kashdami", "pluggnb", "domcorleo"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=_SW3xkCFLQ0"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1154,6 +1586,12 @@
         "tags": ["census", "internetmoney", "drokenji"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=yxN49WJuIYA"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1169,6 +1607,12 @@
         "tags": ["kashdami", "kankan", "autumn"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=BJltK-WxRiI"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1184,6 +1628,12 @@
         "tags": ["kashdami", "pluggnb", "domcorleo"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=KBzJrfOMMTs"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1199,6 +1649,12 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=2AqnQeCJ3zY"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1214,6 +1670,12 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=W_L0jDQYU_w"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1229,6 +1691,12 @@
         "tags": ["yeat", "trippieredd", "internetmoney"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=LAhJyeJA7Fk"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1244,6 +1712,12 @@
         "tags": ["draingang", "bladee", "ecco2k"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=Edqbk4M5pYQ"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1259,6 +1733,12 @@
         "tags": ["gunna", "lilbaby", "pushinp"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=RQn6eCuF2MU"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1274,6 +1754,12 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=xVSMYBh6LHw"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1289,6 +1775,12 @@
         "tags": ["internetmoney", "nickmira", "drokenji", "rioleyva"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=eM4wthHD7OU"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1304,6 +1796,12 @@
         "tags": ["yeat", "trippieredd", "1rafmade"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=b7zHvRfFZyE"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1319,6 +1817,12 @@
         "tags": ["internetmoney"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=ZtAhociuqLw"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1334,6 +1838,12 @@
         "tags": ["kashdami", "ssgkobe"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=8jJShXyfbZw"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1349,6 +1859,12 @@
         "tags": ["trippieredd", "internetmoney"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=mCZw3zX0ojM"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1364,6 +1880,12 @@
         "tags": ["yeat", "dirtysprite"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=ozO6M3PYAbg"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1379,6 +1901,12 @@
         "tags": ["kashdami", "ssgkobe", "babysantana"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=_ssjra2Tprw"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1394,6 +1922,12 @@
         "tags": ["babysantana", "ssgkobe"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=1Tq8PAN8eHw"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1409,6 +1943,12 @@
         "tags": ["grasa", "ibbigang"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=qgggwXmEH5g"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1424,6 +1964,12 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=acoaDvbR1QU"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1439,6 +1985,12 @@
         "tags": ["drokenji", "nickmira"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=G4TWdonkCfs"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1454,6 +2006,12 @@
         "tags": ["yeat", "septembersrich", "dirtysprite"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=JHMRSSWdpwM"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1469,6 +2027,12 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=yThk4NtGWv8"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1484,6 +2048,12 @@
         "tags": ["yeat", "kankan", "dirtysprite"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=HqaLNb2auO8"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1499,6 +2069,12 @@
         "tags": ["yeat", "kankan"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=4EZMrS4NQEY"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1514,6 +2090,12 @@
         "tags": ["internetmoney", "nickmira"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=fGfdhnLmQm8"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1529,6 +2111,12 @@
         "tags": ["drokenji", "nickmira"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=qaaWb8B-Lz4"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1544,6 +2132,12 @@
         "tags": ["kashdami", "trippieredd"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=hu_WvTukF_4"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1559,6 +2153,12 @@
         "tags": ["pierrebourne", "playboicarti"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=5UwAi028XFc"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1574,6 +2174,12 @@
         "tags": ["trippieredd", "wowy", "drokenji"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=nq1RlqrW8ss"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1589,6 +2195,12 @@
         "tags": ["sofaygo", "trippieredd"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=cclNdjkKSZ8"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1604,6 +2216,12 @@
         "tags": ["drokenji", "nickmira"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=MROyJC67eNk"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1619,6 +2237,12 @@
         "tags": ["trippieredd", "nickmira"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=3jpZEwO0i_k"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1634,6 +2258,12 @@
         "tags": ["snot", "etheral"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=v6FDc6x6DbA"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1649,6 +2279,12 @@
         "tags": ["internetmoney", "drokenji"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=kIOy7ilbpDQ"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1664,6 +2300,12 @@
         "tags": ["kashdami", "trippieredd"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=KLwChzOQ2kQ"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1679,6 +2321,12 @@
         "tags": ["kashdami", "playboicarti"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=u7XZDNZ262I"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1694,6 +2342,12 @@
         "tags": ["isaiahrashad", "sainte"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=zNRUVKBSN4g"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1709,6 +2363,12 @@
         "tags": ["misstherage", "trippieredd"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=T3suXLPCseA"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1724,6 +2384,12 @@
         "tags": ["astroworld", "jackboys", "wondagurl"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=mDgcutmhxh8"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1739,6 +2405,12 @@
         "tags": ["travisscott", "astroworld"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=K5wnRD4zwm0"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -1754,6 +2426,12 @@
         "tags": ["comethazine", "snot"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=_I1G9rQq2-k"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     }
   ]

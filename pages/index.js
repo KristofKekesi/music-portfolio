@@ -62,13 +62,16 @@ export default function Home({ beats, mostPopularBeat, randomBeat }) {
 
 export const getStaticProps = async ( _ ) => {
 	const beats = await getBeats(); 
-	const mostPopularBeat = await getBeats({ organise: "streams" }).reverse()[0];
-	const randomBeat = await getBeats({exclude: beats[0].id + "," + mostPopularBeat.id}).sort( () => .5 - Math.random() )[0];
+
+	const mostPopularBeat = await getBeats({ organise: "streams" });
+
+	const randomBeat = await getBeats({exclude: beats[0].id + "," + mostPopularBeat.id});
+	await randomBeat.sort( () => .5 - Math.random() )[0];
 
 	return {
 		props: {
 			beats: beats,
-			mostPopularBeat: mostPopularBeat,
+			mostPopularBeat: mostPopularBeat.at(-1),
 			randomBeat: randomBeat
 		},
 		revalidate: 10
