@@ -19,10 +19,6 @@ export default function Featured(props) {
 
     const feature = props.type == "latest" ? props.beat.release : props.beat.allStreams + " streams";
 
-    console.log("---a----")
-    console.log(props.beat)
-    console.log("---a----")
-
     let key = props.beat.key.split(" ");
     let letter = key[0].toUpperCase();
     key.shift();

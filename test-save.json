@@ -15,8 +15,8 @@
         },
         "youtube": {
             "crawled": "2023-02-10",
-            "viewCount": "",
-            "likeCount": "",
+            "viewCount": null,
+            "likeCount": null,
             "comments": {}
         }
     }, {
@@ -32,6 +32,12 @@
         "tags": ["hardrock", "lunchbox", "newjazz"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=ENKtmj5ea6E"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     },
     {
@@ -47,6 +53,12 @@
         "tags": ["hardrock", "lunchbox", "newjazz"],
         "links": {
             "youtube": "https://www.youtube.com/watch?v=t-w3vPGKNNY"
+        },
+        "youtube": {
+            "crawled": "2023-02-10",
+            "viewCount": null,
+            "likeCount": null,
+            "comments": {}
         }
     }
 ]

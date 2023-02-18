@@ -26,7 +26,6 @@
 			"likeCount": null,
 			"comments": {}
 		},
-		"url": "http://localhost:3000/beats/out-of-mind",
 		"coverURL": "/covers/out-of-mind.jpg",
 		"allStreams": 0,
 		"maxBPM": 140,
@@ -55,11 +54,10 @@
 		},
 		"youtube": {
 			"crawled": "2023-02-10",
-			"viewCount": "63",
-			"likeCount": "2",
+			"viewCount": null,
+			"likeCount": null,
 			"comments": {}
 		},
-		"url": "http://localhost:3000/beats/path",
 		"allStreams": 0,
 		"maxBPM": 129,
 		"minBPM": 129
@@ -87,11 +85,10 @@
 		},
 		"youtube": {
 			"crawled": "2023-02-10",
-			"viewCount": "",
-			"likeCount": "",
+			"viewCount": null,
+			"likeCount": null,
 			"comments": {}
 		},
-		"url": "http://localhost:3000/beats/its-ok",
 		"allStreams": 0,
 		"maxBPM": 136,
 		"minBPM": 136
