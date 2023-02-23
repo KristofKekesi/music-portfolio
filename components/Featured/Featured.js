@@ -47,7 +47,7 @@ export default function Featured(props) {
                                 <p className="font-spaceGrotesk text-amber-600 hover:text-amber-400 transition-colors">#hardrock</p>
                             </div>
                         </div>
-                        <Link href={ encodeURI(props.beat.url) } className="font-spaceGrotesk text-right text-2xl flex justify-end items-center">More<Image alt="More" className="p-1 w-12 h-12" src={right} /></Link>
+                        <Link href={ encodeURI(props.beat.links.url) } className="font-spaceGrotesk text-right text-2xl flex justify-end items-center">More<Image alt="More" className="p-1 w-12 h-12" src={right} /></Link>
                     </div>
                 </div>
         </div>

@@ -24,7 +24,7 @@ export const getStaticPaths = async () => {
 
 	const paths = [];
 	beats.forEach(beat => {
-        paths.push(beat.url.replace(server, ""))
+        paths.push(beat.links.url.replace(server, ""))
     });
 
 	return {
